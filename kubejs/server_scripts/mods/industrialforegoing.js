@@ -61,4 +61,38 @@ ServerEvents.recipes(event => {
     ], {
         E: 'mysticalagriculture:rubber_essence'
     }).id('kubejs:dryrubber_from_rubber_essence');
+
+    /**
+     * @param {{tag: string, count: number}} output
+     * @param {string} catalyst
+     * @param {number} depthMin
+     * @param {number} depthMax
+     * @param {number} weight
+     */
+        event.custom({
+                type: 'industrialforegoing:laser_drill_ore',
+                output: {
+                    tag: "c:gems/bort",
+                    count: 1
+                },
+                rarity: [
+                    {
+                        biome_filter: {
+                            whitelist:  [],
+                            blacklist:  [],
+                        },
+                        dimension_filter: {
+                            whitelist:  ["minecraft:overworld"],
+                            blacklist:  [],
+                        },
+                        depth_min:  0,
+                        depth_max:  256,
+                        weight:     5
+                    }
+                ],
+                catalyst: {
+                    item: "industrialforegoing:cyan_laser_lens"
+                }
+            })
+            .id(`kubejs:industrialforegoing/laser_drill_ore/${output.tag.split(':')[1]}`);
 });

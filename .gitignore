@@ -35,3 +35,9 @@ TrashSlotSaveState.json
 user-prefs.json
 usercache.json
 usernamecache.json
+config/iris.properties
+config/fabric/indigo-renderer.properties
+config/jei/world/
+config/packetfixer.properties
+
+.probe

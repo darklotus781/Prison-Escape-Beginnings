@@ -6,10 +6,12 @@
 - Moved single CraftTweaker recipe to KubeJS, not sure the logic there...
 - Added Pack Title and Icon to show in taskbar! 
 - Fixed Opolis-Utilities Catalogue Recipes (not very good but fixed) 
+- Added Bort to Actually Additions Lens of the Miner
 
 ### MODS:  
 
 - Added Mods:
+  - KubeJS Actually Additions
 - Updated Mods:
   - Cucumber Library
   - Extended Crafting
