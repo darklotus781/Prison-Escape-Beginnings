@@ -1304,7 +1304,7 @@
 				{
 					count: 6L
 					id: "2F9B0DB3C2808FF6"
-					item: { count: 6, id: "ae2:blank_pattern" }
+					item: { count: 1, id: "ae2:blank_pattern" }
 					type: "item"
 				}
 			]
@@ -1326,7 +1326,7 @@
 			tasks: [{
 				count: 12L
 				id: "1B20933E83D7B138"
-				item: { count: 5, id: "ae2:fluix_crystal" }
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1391,7 +1391,7 @@
 				{
 					count: 12L
 					id: "5057B76BA0FCE73F"
-					item: { count: 12, id: "ae2:fluix_glass_cable" }
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
 					type: "item"
 				}
 				{

@@ -1102,7 +1102,7 @@
 				{
 					count: 4L
 					id: "326E8BBCC5FE1393"
-					item: { count: 4, id: "actuallyadditions:display_stand" }
+					item: { count: 1, id: "actuallyadditions:display_stand" }
 					type: "item"
 				}
 			]
@@ -1961,7 +1961,7 @@
 				{
 					count: 27L
 					id: "20A743F084DD62AE"
-					item: { count: 27, id: "immersiveengineering:blastbrick" }
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
 					type: "item"
 				}
 			]
@@ -2354,25 +2354,25 @@
 				{
 					count: 8L
 					id: "278D9B763B5B7003"
-					item: { count: 8, id: "immersiveengineering:steel_fence" }
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "770A5D4E432A0AF3"
-					item: { count: 8, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "2180A678001955CC"
-					item: { count: 9, id: "minecraft:hopper" }
+					item: { count: 1, id: "minecraft:hopper" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "1DE39560B9C93151"
-					item: { count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 			]
@@ -2422,7 +2422,7 @@
 				{
 					count: 27L
 					id: "55D3F9A3108FEC33"
-					item: { count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
 					type: "item"
 				}
 				{
@@ -2433,7 +2433,7 @@
 				{
 					count: 2L
 					id: "6B32EE4C88D31EF3"
-					item: { count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+					item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
 					optional_task: true
 					type: "item"
 				}

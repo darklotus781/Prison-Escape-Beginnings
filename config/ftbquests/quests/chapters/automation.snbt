@@ -143,7 +143,7 @@
 				{
 					count: 24L
 					id: "2E235AE93398138E"
-					item: { count: 24, id: "minecraft:oak_log" }
+					item: { count: 1, id: "minecraft:oak_log" }
 					type: "item"
 				}
 			]
@@ -554,19 +554,19 @@
 				{
 					count: 32L
 					id: "450DF4BC6D7DA517"
-					item: { count: 64, id: "minecraft:sand" }
+					item: { count: 1, id: "minecraft:sand" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "5140D3E49865620D"
-					item: { count: 64, id: "minecraft:gravel" }
+					item: { count: 1, id: "minecraft:gravel" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "38EC381E93C689C4"
-					item: { count: 64, id: "exdeorum:dust" }
+					item: { count: 1, id: "exdeorum:dust" }
 					type: "item"
 				}
 			]
@@ -594,19 +594,19 @@
 				{
 					count: 8L
 					id: "64FD989875A92E47"
-					item: { components: { "enderio:conduit": "enderio:item" }, count: 3, id: "enderio:conduit" }
+					item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "09BBD1DFD69FD0CC"
-					item: { count: 3, id: "mekanism:basic_logistical_transporter" }
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "4B9E7E04C6F4400E"
-					item: { count: 6, id: "pipez:item_pipe" }
+					item: { count: 1, id: "pipez:item_pipe" }
 					type: "item"
 				}
 				{
@@ -693,7 +693,7 @@
 			tasks: [{
 				count: 32L
 				id: "79802551CD2F4362"
-				item: { count: 32, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: 4.5d

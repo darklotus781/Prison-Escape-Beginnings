@@ -366,7 +366,7 @@
 				consume_items: true
 				count: 10L
 				id: "286D442EE0FB315A"
-				item: { count: 10, id: "minecraft:oak_sapling" }
+				item: { count: 1, id: "minecraft:oak_sapling" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -445,7 +445,7 @@
 			tasks: [{
 				count: 25L
 				id: "4B510684D8083A5E"
-				item: { count: 25, id: "minecraft:dirt" }
+				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -511,7 +511,7 @@
 			shape: "square"
 			tasks: [{
 				id: "412C1EB8C4F3991A"
-				item: { count: 3, id: "exdeorum:string_mesh" }
+				item: { count: 1, id: "exdeorum:string_mesh" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -569,13 +569,13 @@
 				{
 					count: 10L
 					id: "00B9BE00643200A2"
-					item: { count: 10, id: "exdeorum:silkworm" }
+					item: { count: 1, id: "exdeorum:silkworm" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "13C6A53B1EA65DD2"
-					item: { count: 16, id: "minecraft:string" }
+					item: { count: 1, id: "minecraft:string" }
 					type: "item"
 				}
 			]
@@ -606,43 +606,43 @@
 				{
 					count: 5L
 					id: "6AAAEA891E2F7478"
-					item: { count: 5, id: "minecraft:oak_sapling" }
+					item: { count: 1, id: "minecraft:oak_sapling" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "4332E9F0709C7627"
-					item: { count: 5, id: "minecraft:wheat_seeds" }
+					item: { count: 1, id: "minecraft:wheat_seeds" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "4226151C3308FDDA"
-					item: { count: 5, id: "minecraft:sugar_cane" }
+					item: { count: 1, id: "minecraft:sugar_cane" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "1E0C838D5778A393"
-					item: { count: 5, id: "minecraft:spruce_sapling" }
+					item: { count: 1, id: "minecraft:spruce_sapling" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "6E20480DE30E9A7C"
-					item: { count: 5, id: "minecraft:carrot" }
+					item: { count: 1, id: "minecraft:carrot" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "7CB52E60E4E080A2"
-					item: { count: 5, id: "minecraft:pumpkin_seeds" }
+					item: { count: 1, id: "minecraft:pumpkin_seeds" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "154BB30EED677E59"
-					item: { count: 5, id: "minecraft:melon_seeds" }
+					item: { count: 1, id: "minecraft:melon_seeds" }
 					type: "item"
 				}
 				{
@@ -654,31 +654,31 @@
 				{
 					count: 5L
 					id: "595055C49EC51D92"
-					item: { count: 5, id: "minecraft:beetroot_seeds" }
+					item: { count: 1, id: "minecraft:beetroot_seeds" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "1CB9E18710D0CD4E"
-					item: { count: 5, id: "exdeorum:mycelium_spores" }
+					item: { count: 1, id: "exdeorum:mycelium_spores" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1ED6A584214E9195"
-					item: { count: 5, id: "minecraft:lily_pad" }
+					item: { count: 1, id: "minecraft:lily_pad" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "2342237078F3E3DE"
-					item: { count: 64, id: "minecraft:bamboo" }
+					item: { count: 1, id: "minecraft:bamboo" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "73625C18484CF471"
-					item: { count: 3, id: "minecraft:cactus" }
+					item: { count: 1, id: "minecraft:cactus" }
 					type: "item"
 				}
 			]
@@ -708,7 +708,7 @@
 			tasks: [{
 				count: 64L
 				id: "5BBFDB937717FCE9"
-				item: { count: 5, id: "minecraft:cobblestone" }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -741,7 +741,7 @@
 			tasks: [{
 				count: 25L
 				id: "3176A0882BC48729"
-				item: { count: 5, id: "minecraft:gravel" }
+				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -763,7 +763,7 @@
 			tasks: [{
 				count: 10L
 				id: "25281ECAA3697E06"
-				item: { count: 5, id: "minecraft:sand" }
+				item: { count: 1, id: "minecraft:sand" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -785,7 +785,7 @@
 			tasks: [{
 				count: 10L
 				id: "7763023FB3650DF4"
-				item: { count: 5, id: "exdeorum:dust" }
+				item: { count: 1, id: "exdeorum:dust" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -832,25 +832,25 @@
 				{
 					count: 25L
 					id: "3CE77B857DBAC054"
-					item: { count: 25, id: "minecraft:diamond" }
+					item: { count: 1, id: "minecraft:diamond" }
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "5D62404899104F5A"
-					item: { count: 25, id: "minecraft:emerald" }
+					item: { count: 1, id: "minecraft:emerald" }
 					type: "item"
 				}
 				{
 					count: 35L
 					id: "1EF6C170694B5FE3"
-					item: { count: 35, id: "minecraft:lapis_lazuli" }
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "5CB8469AF174E6F8"
-					item: { count: 32, id: "minecraft:flint" }
+					item: { count: 1, id: "minecraft:flint" }
 					type: "item"
 				}
 			]
@@ -924,31 +924,31 @@
 				{
 					count: 10L
 					id: "33E29C0BFFE2F57F"
-					item: { count: 10, id: "exdeorum:copper_ore_chunk" }
+					item: { count: 1, id: "exdeorum:copper_ore_chunk" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "45E7E0089813C18C"
-					item: { count: 5, id: "exdeorum:gold_ore_chunk" }
+					item: { count: 1, id: "exdeorum:gold_ore_chunk" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "77DC9EB744581B0D"
-					item: { count: 5, id: "exdeorum:lead_ore_chunk" }
+					item: { count: 1, id: "exdeorum:lead_ore_chunk" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "3851A5C068329790"
-					item: { count: 5, id: "exdeorum:tin_ore_chunk" }
+					item: { count: 1, id: "exdeorum:tin_ore_chunk" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "592845228FB471F8"
-					item: { count: 5, id: "exdeorum:osmium_ore_chunk" }
+					item: { count: 1, id: "exdeorum:osmium_ore_chunk" }
 					type: "item"
 				}
 			]
@@ -1175,7 +1175,7 @@
 				consume_items: true
 				count: 25L
 				id: "5E4D73D597DD9792"
-				item: { count: 25, id: "minecraft:cobblestone" }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -1398,7 +1398,7 @@
 			tasks: [{
 				count: 4L
 				id: "6FD40EF4CB7A5DC1"
-				item: { count: 3, id: "minecraft:chest" }
+				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1554,7 +1554,7 @@
 			tasks: [{
 				count: 5L
 				id: "5CEA7FCA570D2B3E"
-				item: { count: 5, id: "minecraft:soul_sand" }
+				item: { count: 1, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -1588,7 +1588,7 @@
 			tasks: [{
 				count: 5L
 				id: "222059C750E25534"
-				item: { count: 5, id: "minecraft:nether_wart" }
+				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -1703,7 +1703,7 @@
 			shape: "square"
 			tasks: [{
 				id: "0824BA0BE19621AD"
-				item: { count: 4, id: "exdeorum:oak_compressed_sieve" }
+				item: { count: 1, id: "exdeorum:oak_compressed_sieve" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1926,7 +1926,7 @@
 			tasks: [{
 				count: 25L
 				id: "78C30720AB12B215"
-				item: { count: 25, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2146,7 +2146,7 @@
 			tasks: [{
 				count: 10L
 				id: "0A0B889505C21899"
-				item: { count: 14, id: "minecraft:obsidian" }
+				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -2177,7 +2177,7 @@
 				{
 					count: 24L
 					id: "456EA92D806F4E1C"
-					item: { count: 24, id: "minecraft:carrot" }
+					item: { count: 1, id: "minecraft:carrot" }
 					type: "item"
 				}
 				{
@@ -2201,19 +2201,19 @@
 				{
 					count: 24L
 					id: "47573C8DC38FAD58"
-					item: { count: 24, id: "minecraft:melon_slice" }
+					item: { count: 1, id: "minecraft:melon_slice" }
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "3DB353B34B44B3F7"
-					item: { count: 24, id: "minecraft:pumpkin" }
+					item: { count: 1, id: "minecraft:pumpkin" }
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "02F75F05C4AA1511"
-					item: { count: 24, id: "minecraft:beetroot" }
+					item: { count: 1, id: "minecraft:beetroot" }
 					type: "item"
 				}
 			]
@@ -2360,13 +2360,13 @@
 				{
 					count: 27L
 					id: "7E105527D67273F6"
-					item: { count: 27, id: "immersiveengineering:cokebrick" }
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "1661C807DB3D25FB"
-					item: { count: 8, id: "immersiveengineering:alloybrick" }
+					item: { count: 1, id: "immersiveengineering:alloybrick" }
 					type: "item"
 				}
 			]
@@ -2421,7 +2421,7 @@
 				{
 					count: 8L
 					id: "6884EF9E9AF39F71"
-					item: { count: 4, id: "minecraft:brick" }
+					item: { count: 1, id: "minecraft:brick" }
 					type: "item"
 				}
 				{
@@ -2532,25 +2532,25 @@
 				{
 					count: 6L
 					id: "7F3D2AA8E5CA08CF"
-					item: { count: 6, id: "opolisutilities:soaked_paper" }
+					item: { count: 1, id: "opolisutilities:soaked_paper" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "61123749CAA887F8"
-					item: { count: 6, id: "opolisutilities:jerky" }
+					item: { count: 1, id: "opolisutilities:jerky" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2E14E29F8085DC3A"
-					item: { count: 6, id: "minecraft:paper" }
+					item: { count: 1, id: "minecraft:paper" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "31C3ED120FCE8369"
-					item: { count: 3, id: "securitycraft:reinforced_oak_planks" }
+					item: { count: 1, id: "securitycraft:reinforced_oak_planks" }
 					type: "item"
 				}
 			]
@@ -2595,7 +2595,7 @@
 				{
 					count: 2L
 					id: "74D7796A2122488C"
-					item: { count: 2, id: "minecraft:armor_stand" }
+					item: { count: 1, id: "minecraft:armor_stand" }
 					optional_task: true
 					type: "item"
 				}

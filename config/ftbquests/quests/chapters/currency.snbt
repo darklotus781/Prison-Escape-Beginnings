@@ -2770,7 +2770,7 @@
 					consume_items: true
 					count: 3L
 					id: "0092F66E6F27BAB4"
-					item: { count: 3, id: "moneyforeveryone:coin_copper" }
+					item: { count: 1, id: "moneyforeveryone:coin_copper" }
 					type: "item"
 				}
 			]
@@ -2800,10 +2800,10 @@
 									}
 									stats: {
 										cooldown: {
-											initialValue: 100.07943d
+											initialValue: 71.83888d
 										}
 										distance: {
-											initialValue: 505.88141d
+											initialValue: 632.42127d
 										}
 									}
 								}
@@ -3507,7 +3507,7 @@
 					consume_items: true
 					count: 3L
 					id: "577ED5912E8B6746"
-					item: { count: 10, id: "moneyforeveryone:coin_gold" }
+					item: { count: 1, id: "moneyforeveryone:coin_gold" }
 					type: "item"
 				}
 				{
@@ -3653,7 +3653,7 @@
 					consume_items: true
 					count: 3L
 					id: "01369F3119F89D84"
-					item: { count: 5, id: "moneyforeveryone:coin_gold" }
+					item: { count: 1, id: "moneyforeveryone:coin_gold" }
 					type: "item"
 				}
 				{

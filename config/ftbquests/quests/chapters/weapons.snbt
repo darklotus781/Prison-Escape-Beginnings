@@ -168,7 +168,7 @@
 				{
 					count: 64L
 					id: "73B52B4C8A9A43CC"
-					item: { count: 64, id: "minecraft:arrow" }
+					item: { count: 1, id: "minecraft:arrow" }
 					type: "item"
 				}
 			]

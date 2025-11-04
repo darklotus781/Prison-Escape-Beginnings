@@ -244,7 +244,7 @@
 			tasks: [{
 				count: 3L
 				id: "27B2D23333B052B7"
-				item: { count: 3, id: "immersiveengineering:thermoelectric_generator" }
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1014,13 +1014,13 @@
 				{
 					count: 10L
 					id: "5CA6C8C393EDAB24"
-					item: { count: 10, id: "immersiveengineering:stick_treated" }
+					item: { count: 1, id: "immersiveengineering:stick_treated" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "2D446892982483A6"
-					item: { count: 4, id: "immersiveengineering:windmill_blade" }
+					item: { count: 1, id: "immersiveengineering:windmill_blade" }
 					type: "item"
 				}
 				{
@@ -1359,13 +1359,13 @@
 				{
 					count: 36L
 					id: "61F8B245E2B9696F"
-					item: { count: 38, id: "powah:reactor_starter" }
+					item: { count: 1, id: "powah:reactor_starter" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "33E4EC90DEE675D8"
-					item: { count: 3, id: "powah:dry_ice" }
+					item: { count: 1, id: "powah:dry_ice" }
 					type: "item"
 				}
 				{
@@ -1416,7 +1416,7 @@
 			tasks: [{
 				count: 3L
 				id: "1AD61FB0AF0897D2"
-				item: { count: 3, id: "enderio:vibrant_capacitor_bank" }
+				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2001,7 +2001,7 @@
 				{
 					count: 12L
 					id: "56A075DFC11C7041"
-					item: { count: 12, id: "bigreactors:basic_reactorglass" }
+					item: { count: 1, id: "bigreactors:basic_reactorglass" }
 					type: "item"
 				}
 				{
@@ -2035,7 +2035,7 @@
 				{
 					count: 3L
 					id: "07D539A6FE44EDDA"
-					item: { count: 3, id: "bigreactors:basic_reactorcontrolrod" }
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
 					type: "item"
 				}
 			]
@@ -2055,7 +2055,7 @@
 			tasks: [{
 				count: 36L
 				id: "5617469B7C23AF73"
-				item: { count: 38, id: "powah:reactor_basic" }
+				item: { count: 1, id: "powah:reactor_basic" }
 				type: "item"
 			}]
 			x: 8.5d

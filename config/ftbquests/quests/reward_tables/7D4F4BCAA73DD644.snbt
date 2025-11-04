@@ -736,7 +736,7 @@
 									}
 									stats: {
 										duration: {
-											initialValue: 1.50274d
+											initialValue: 2.07011d
 										}
 									}
 								}
@@ -756,10 +756,10 @@
 									}
 									stats: {
 										damage: {
-											initialValue: 1.08373d
+											initialValue: 0.95042d
 										}
 										stun: {
-											initialValue: 0.21108d
+											initialValue: 0.06842d
 										}
 									}
 								}
@@ -779,10 +779,10 @@
 									}
 									stats: {
 										cooldown: {
-											initialValue: 23.81388d
+											initialValue: 21.19067d
 										}
 										feed: {
-											initialValue: 2.59245d
+											initialValue: 2.10422d
 										}
 									}
 								}

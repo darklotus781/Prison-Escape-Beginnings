@@ -1292,7 +1292,7 @@
 			tasks: [{
 				count: 10L
 				id: "7D9E2DF3A49CA030"
-				item: { count: 10, id: "minecraft:reinforced_deepslate" }
+				item: { count: 1, id: "minecraft:reinforced_deepslate" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -2304,7 +2304,7 @@
 				{
 					count: 13L
 					id: "3FCA91B7AF37EF2B"
-					item: { count: 13, id: "aoa3:ancient_rock" }
+					item: { count: 1, id: "aoa3:ancient_rock" }
 					type: "item"
 				}
 				{

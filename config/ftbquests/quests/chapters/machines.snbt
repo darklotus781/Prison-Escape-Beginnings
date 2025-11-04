@@ -1768,7 +1768,7 @@
 			tasks: [{
 				count: 10L
 				id: "1FFE386381A75778"
-				item: { count: 24, id: "mekanism:ingot_osmium" }
+				item: { count: 1, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -2567,7 +2567,7 @@
 			tasks: [{
 				count: 10L
 				id: "6A008E82AF2E2DC2"
-				item: { count: 10, id: "enderio:conduit_binder" }
+				item: { count: 1, id: "enderio:conduit_binder" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -2596,7 +2596,7 @@
 				{
 					count: 5L
 					id: "03D28F10D6B81DE4"
-					item: { count: 5, id: "mekanism:basic_mechanical_pipe" }
+					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
 					type: "item"
 				}
 			]

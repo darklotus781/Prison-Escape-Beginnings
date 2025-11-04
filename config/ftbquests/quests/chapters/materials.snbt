@@ -223,7 +223,7 @@
 			tasks: [{
 				count: 6L
 				id: "043FF4FF0BD8D796"
-				item: { count: 25, id: "minecraft:netherite_ingot" }
+				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -263,7 +263,7 @@
 			tasks: [{
 				count: 25L
 				id: "6FA8EDAED7DF4DD7"
-				item: { count: 25, id: "enderio:vibrant_alloy_ingot" }
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -293,7 +293,7 @@
 			tasks: [{
 				count: 25L
 				id: "5C936979D28D0206"
-				item: { count: 25, id: "mekanism:ingot_refined_glowstone" }
+				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -406,7 +406,7 @@
 			tasks: [{
 				count: 25L
 				id: "59414406FAC0C451"
-				item: { count: 25, id: "justdirethings:ferricore_ingot" }
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -445,7 +445,7 @@
 			tasks: [{
 				count: 25L
 				id: "393BBEA06042D317"
-				item: { count: 25, id: "industrialforegoing:pink_slime_ingot" }
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -484,7 +484,7 @@
 			tasks: [{
 				count: 25L
 				id: "4ECC3FC0A0CB4B43"
-				item: { count: 25, id: "silentgear:azure_electrum_ingot" }
+				item: { count: 1, id: "silentgear:azure_electrum_ingot" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -518,7 +518,7 @@
 				consume_items: true
 				count: 10L
 				id: "65AAFAB5352A85E8"
-				item: { count: 10, id: "minecraft:nether_star" }
+				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -577,7 +577,7 @@
 				consume_items: true
 				count: 64L
 				id: "6050039A5ECF13BC"
-				item: { count: 50, id: "minecraft:ender_pearl" }
+				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -603,7 +603,7 @@
 				consume_items: true
 				count: 15L
 				id: "319C8E0BAF250D91"
-				item: { count: 15, id: "enderio:withering_powder" }
+				item: { count: 1, id: "enderio:withering_powder" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -651,7 +651,7 @@
 			tasks: [{
 				count: 64L
 				id: "43DD4BC87364CD0A"
-				item: { count: 64, id: "minecraft:gold_ingot" }
+				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -718,7 +718,7 @@
 			tasks: [{
 				count: 64L
 				id: "25D5B2700484157D"
-				item: { count: 64, id: "minecraft:lapis_lazuli" }
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -749,7 +749,7 @@
 			tasks: [{
 				count: 64L
 				id: "40BF4BF358F30E4F"
-				item: { count: 64, id: "mekanism:ingot_osmium" }
+				item: { count: 1, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -782,7 +782,7 @@
 			tasks: [{
 				count: 64L
 				id: "7081291F662B9ECD"
-				item: { count: 64, id: "mysticalagriculture:soulium_ingot" }
+				item: { count: 1, id: "mysticalagriculture:soulium_ingot" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -810,7 +810,7 @@
 			tasks: [{
 				count: 64L
 				id: "7E7E6FBD6651D364"
-				item: { count: 15, id: "ae2:certus_quartz_crystal" }
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -847,7 +847,7 @@
 			tasks: [{
 				count: 10L
 				id: "16132ED8D5C2DE36"
-				item: { count: 5, id: "ae2:charged_certus_quartz_crystal" }
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -875,7 +875,7 @@
 			tasks: [{
 				count: 32L
 				id: "24469FD699C73DD2"
-				item: { count: 10, id: "ae2:certus_quartz_dust" }
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -942,7 +942,7 @@
 			tasks: [{
 				count: 64L
 				id: "3DB33FD52FA36A70"
-				item: { count: 64, id: "mekanism:ingot_uranium" }
+				item: { count: 1, id: "mekanism:ingot_uranium" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -975,7 +975,7 @@
 			tasks: [{
 				count: 64L
 				id: "0DE06515E84D87B5"
-				item: { count: 64, id: "aoa3:elecanium_ingot" }
+				item: { count: 1, id: "aoa3:elecanium_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1009,7 +1009,7 @@
 			tasks: [{
 				count: 64L
 				id: "0993760EEFB2F09A"
-				item: { count: 64, id: "aoa3:blazium_ingot" }
+				item: { count: 1, id: "aoa3:blazium_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1200,7 +1200,7 @@
 			tasks: [{
 				count: 64L
 				id: "7629F503F3B3ED36"
-				item: { count: 64, id: "enderio:prescient_crystal" }
+				item: { count: 1, id: "enderio:prescient_crystal" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1497,7 +1497,7 @@
 			tasks: [{
 				count: 64L
 				id: "38C876D708E9D389"
-				item: { count: 64, id: "minecraft:copper_block" }
+				item: { count: 1, id: "minecraft:copper_block" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2079,7 +2079,7 @@
 			tasks: [{
 				count: 15L
 				id: "6D11C83D1A1AC543"
-				item: { count: 15, id: "mysticalagradditions:insanium_block" }
+				item: { count: 1, id: "mysticalagradditions:insanium_block" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -2355,7 +2355,7 @@
 			tasks: [{
 				count: 64L
 				id: "3200C7F0317B7D7A"
-				item: { count: 64, id: "supplementaries:flint_block" }
+				item: { count: 1, id: "supplementaries:flint_block" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -2386,7 +2386,7 @@
 			tasks: [{
 				count: 64L
 				id: "0344B3ED09F19E09"
-				item: { count: 64, id: "extendedcrafting:crystaltine_ingot" }
+				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -2437,19 +2437,19 @@
 				{
 					count: 64L
 					id: "6E768FE4A9F71C26"
-					item: { count: 64, id: "minecraft:hay_block" }
+					item: { count: 1, id: "minecraft:hay_block" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "67BFBB4D4F94BC70"
-					item: { count: 64, id: "minecraft:white_wool" }
+					item: { count: 1, id: "minecraft:white_wool" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "55A29F9647770A1D"
-					item: { count: 64, id: "minecraft:apple" }
+					item: { count: 1, id: "minecraft:apple" }
 					type: "item"
 				}
 			]
@@ -2542,7 +2542,7 @@
 			tasks: [{
 				count: 32L
 				id: "552D4AC820DE81C8"
-				item: { count: 16, id: "extendedcrafting:enhanced_ender_ingot" }
+				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
 				type: "item"
 			}]
 			x: 12.5d

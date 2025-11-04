@@ -1,3 +1,13 @@
+# [1.0.3] (DarkLotus)
+- Rolled back EnderIO to 7.1.8
+- Rolled back KubeJS EnderIO to 0.7.2
+- Rolled back Relics to 0.10.7.6
+- Fixed Associated Quest Entries
+
+# [1.0.2] (DarkLotus)
+- Removed 1.0.1 release
+- Re-released 1.0.1 as a new package with 1.0.2 version
+
 # [1.0.1] (DarkLotus)
 - Added custom method of gathering pebbles by punching dirt, this is my own creation that supports holding a Pebble in the offhand to get more of that type.
 - Restructured KubeJS code
