@@ -1,0 +1,2 @@
+// Compost colors for irondoorkey. You may add your own colors, change existing ones, or remove colors that aren't needed.
+iron_door_key, #f4d0d0

@@ -1,0 +1,14 @@
+// Compost colors for deep_dark. You may add your own colors, change existing ones, or remove colors that aren't needed.
+echoite_and_flint, #203c41
+echoite_armor_boots, #e3e4b
+echoite_armor_chestplate, #b4a5a
+echoite_armor_helmet, #c404d
+echoite_armor_leggings, #e3e4d
+echoite_axe, #364d40
+echoite_hoe, #474a32
+echoite_ingot, #255e72
+echoite_pickaxe, #3a4737
+echoite_shovel, #3c4d3d
+echoite_sword, #15434b
+echoite_upgrade_smithing_template, #1b3d43
+sculk_rose, #a4b5b

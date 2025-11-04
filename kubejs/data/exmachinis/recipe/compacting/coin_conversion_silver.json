@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minecraft"
+    }
+  ],
+  "type": "exmachinis:compacting",
+  "input": {
+    "count": 64,
+    "ingredient": {
+      "item": "aoa3:copper_coin"
+    }
+  },
+  "output": {
+    "count": 1,
+    "id": "aoa3:silver_coin"
+  }
+}

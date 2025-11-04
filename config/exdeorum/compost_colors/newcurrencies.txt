@@ -1,0 +1,10 @@
+// Compost colors for newcurrencies. You may add your own colors, change existing ones, or remove colors that aren't needed.
+coin_1, #e8e8e8
+coin_2, #ffe851
+note_10, #ffb6a4
+note_100, #c6ff9e
+note_20, #a0d6fb
+note_200, #ffff75
+note_5, #eaffcd
+note_50, #ffb472
+note_500, #ffb8f5

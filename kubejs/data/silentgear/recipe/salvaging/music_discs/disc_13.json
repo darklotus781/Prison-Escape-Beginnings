@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:music_disc_13"
+  },
+  "results": [
+    {
+      "count": 1,
+      "id": "industrialforegoing:plastic"
+    }
+  ]
+}

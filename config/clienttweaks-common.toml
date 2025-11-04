@@ -1,0 +1,61 @@
+[tweaks]
+	#This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.
+	autoClimbLadder = true
+	#This prevents the last torch in the offhand from being placed.
+	doNotUseLastTorch = false
+	#This option will hide your offhand item. It can be toggled via an optional key binding.
+	hideOffhandItem = false
+	#This option will hide your own potion particle effects for your client (other players will still see them).
+	hideOwnParticleEffects = true
+	#This option will hide your shield unless you are holding a weapon.
+	hideShieldUnlessHoldingWeapon = true
+	#This prevents torches from being placed from your offhand at all.
+	noOffhandTorchAtAll = false
+	#This prevents torches from being placed from your offhand if you have a block in your main hand.
+	noOffhandTorchWithBlock = false
+	#This prevents torches from being placed from your offhand if you have food in your main hand.
+	noOffhandTorchWithFood = false
+	#This prevents torches from being placed from your offhand if you have an empty main hand.
+	noOffhandTorchWithEmptyHand = false
+	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
+	offhandTorchWithToolOnly = false
+	#This prevents fireworks from being launched from your offhand if you are wearing an Elytra, unless you're flying.
+	noOffhandFireworksWithElytra = true
+	#This option will disable step assist added by other mods.
+	disableStepAssist = false
+	#This option will disable log stripping.
+	disableLogStripping = false
+	#This adds back the master volume slider to the options screen. Saves you a click!
+	masterVolumeSlider = true
+	#This adds back the music volume slider to the options screen. Saves you a click!
+	musicVolumeSlider = true
+	#This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
+	paneBuildingSupport = true
+	#This option will make chains have a bigger hitbox while placing them, making it easier to aim.
+	chainBuildingSupport = true
+	#This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.
+	noRecipeBookShifting = false
+	#Prevents accidental mining of certain fragile blocks like budding amethysts.
+	preventAccidentalMining = true
+	#This option will increase the hitbox of random-offset blocks in creative mode, making it easier to break them quickly.
+	creativeBreakingSupport = true
+	#This option will disable paving when holding a block in your offhand.
+	disablePavingWithBlockInOffhand = true
+	#This prevents the last durability from being used up.
+	doNotUseLastMending = false
+	#This prevents items from being used from your offhand if you have food in your main hand.
+	noOffhandUseWithFood = false
+
+[customization]
+	#Items that count as torches for the offhand-torch tweak options.
+	torchItems = ["minecraft:torch", "minecraft:soul_torch", "tconstruct:stone_torch", "chipped:lantern", "chipped:soul_lanter", "additionallanterns:amethyst_lanterns", "additionallanterns:andesite_lanterns", "additionallanterns:basalt_lanterns", "additionallanterns:cobblestone_lanterns", "additionallanterns:cobbled_deepslate_lanterns", "additionallanterns:copper_lanterns", "additionallanterns:crimson_lanterns", "additionallanterns:dark_prismarine_lanterns", "additionallanterns:deepslate_lanterns", "additionallanterns:diamond_lanterns", "additionallanterns:diorite_lanterns", "additionallanterns:emerald_lanterns", "additionallanterns:end_stone_lanterns", "additionallanterns:exposed_copper_lanterns", "additionallanterns:gold_lanterns", "additionallanterns:granite_lanterns", "additionallanterns:iron_lanterns", "additionallanterns:mossy_cobblestone_lanterns", "additionallanterns:normal_lanterns", "additionallanterns:netherite_lanterns", "additionallanterns:normal_nether_bricks_lanterns", "additionallanterns:normal_sandstone_lanterns", "additionallanterns:obsidian_lanterns", "additionallanterns:oxidized_copper_lanterns", "additionallanterns:prismarine_lanterns", "additionallanterns:purpur_lanterns", "additionallanterns:quartz_lanterns", "additionallanterns:red_nether_bricks_lanterns", "additionallanterns:red_sandstone_lanterns", "additionallanterns:smooth_stone_lanterns", "additionallanterns:stone_lanterns", "additionallanterns:stone_bricks_lanterns", "additionallanterns:warped_lanterns", "additionallanterns:waxed_copper_lanterns", "additionallanterns:waxed_exposed_copper_lanterns", "additionallanterns:waxed_oxidized_copper_lanterns", "additionallanterns:waxed_weathered_copper_lanterns", "additionallanterns:weathered_copper_lanterns"]
+	#Items that are allowed to place torches from the offhand if offhandTorchWithToolOnly is enabled.
+	torchTools = ["minecraft:bow", "minecraft:crossbow"]
+	#Items that count as weapons for the offhand-shield hiding tweak options.
+	shieldWeapons = ["tetra:modular_sword"]
+	#Items that count as shields for the offhand-shield hiding tweak options.
+	shieldItems = ["basicshields:wooden_shield", "basicshields:golden_shield", "basicshields:diamond_shield", "basicshields:netherite_shield"]
+	#Items that count as fireworks for the offhand-firework tweak options.
+	fireworkItems = ["minecraft:firework_rocket"]
+	#Blocks that should be protected in the prevent accidental mining tweak.
+	fragileBlocks = ["minecraft:small_amethyst_bud", "minecraft:medium_amethyst_bud", "minecraft:large_amethyst_bud", "minecraft:budding_amethyst"]

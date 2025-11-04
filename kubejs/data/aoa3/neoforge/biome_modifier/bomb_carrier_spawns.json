@@ -1,0 +1,16 @@
+{
+  "type": "aoa3:new_mob_spawn",
+  "biomes": {
+    "if_all": [
+      "#aoa3:is_precasia"
+    ]
+  },
+  "spawn": [
+    {
+      "type": "aoa3:bomb_carrier",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 25
+    }
+  ]
+}

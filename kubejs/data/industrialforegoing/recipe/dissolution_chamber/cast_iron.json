@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ftbstuff:cast_iron_ingot"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "inputFluid": {
+    "amount": 50,
+    "fluid": "minecraft:lava"
+  },
+  "output": {
+    "count": 4,
+    "id": "ftbstuff:cast_iron_ingot"
+  },
+  "processingTime": 1000
+}

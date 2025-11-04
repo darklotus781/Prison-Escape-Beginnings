@@ -1,0 +1,12 @@
+{
+    "type": "silentgear:salvaging",
+    "ingredient": {
+      "item": "artifacts:withered_bracelet"
+    },
+    "results": [
+      {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    ]
+  }

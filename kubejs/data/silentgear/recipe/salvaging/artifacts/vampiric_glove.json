@@ -1,0 +1,12 @@
+{
+    "type": "silentgear:salvaging",
+    "ingredient": {
+      "item": "artifacts:vampiric_glove"
+    },
+    "results": [
+      {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    ]
+  }

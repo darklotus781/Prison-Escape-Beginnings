@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6400,
+  "input": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "mekanism:dust_steel"
+    },
+    "count": 1
+  }
+}

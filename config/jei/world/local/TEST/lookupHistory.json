@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"moneyforeveryone:coin_copper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:b_bucks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:catalogue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagradditions:neutronium_crux"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"framedblocks:framed_stacked_corner_slope_panel","components":{"framedblocks:camo_list":[{"state":{"Name":"mysticalagradditions:neutronium_crux"},"type":"framedblocks:block"},{"state":{"Name":"supplementaries:stone_tile"},"type":"framedblocks:block"}]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagriculture:neutronium_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mysticalagriculture:neutronium_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:the_ultimate_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"securitycraft:keycard_lv5"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_villagers:farmer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:farmer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

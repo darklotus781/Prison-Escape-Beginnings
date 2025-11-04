@@ -1,0 +1,17 @@
+// Compost colors for dimdungeons. You may add your own colors, change existing ones, or remove colors that aren't needed.
+item_blank_advanced_key, #c5eb87
+item_blank_build_key, #39486e
+item_blank_teleporter_key, #fff232
+item_blank_theme_key, #c6be83
+item_homeward_pearl, #8a72b2
+item_key_build, #364e72
+item_portal_key, #fed68c
+item_secret_bell, #ffffff
+item_trophy_1, #caffbc
+item_trophy_2, #7c8cbf
+item_trophy_3, #686665
+item_trophy_4, #3a8c5b
+item_trophy_5, #7f612d
+item_trophy_6, #ffb95e
+item_trophy_7, #c54796
+item_trophy_8, #665587

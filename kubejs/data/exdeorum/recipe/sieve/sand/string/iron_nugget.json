@@ -1,0 +1,13 @@
+{
+  "type": "exdeorum:sieve",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "mesh": {
+    "item": "exdeorum:string_mesh"
+  },
+  "result": {
+    "count": 0,
+    "id": "minecraft:iron_nugget"
+  }
+}

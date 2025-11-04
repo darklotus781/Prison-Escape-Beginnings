@@ -1,0 +1,18 @@
+// Compost colors for too_many_dimensions_dimensions. You may add your own colors, change existing ones, or remove colors that aren't needed.
+diamondd, #cccccc
+dirt_d, #cccccc
+emerald_dimension, #cccccc
+glass_d, #cccccc
+gold_d, #cccccc
+ironed, #cccccc
+lapis_laluzi_dimension, #cccccc
+magma_d, #cccccc
+netherite_d, #cccccc
+podzol, #cccccc
+red_wool_dimension, #cccccc
+redsotne_dimension, #cccccc
+scaffolding_d, #cccccc
+sculk_dimension, #cccccc
+stoned, #cccccc
+tnt, #cccccc
+wood, #cccccc

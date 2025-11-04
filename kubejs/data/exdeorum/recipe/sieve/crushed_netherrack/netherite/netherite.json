@@ -1,0 +1,17 @@
+{
+  "type": "exdeorum:sieve",
+  "ingredient": {
+    "item": "exdeorum:crushed_netherrack"
+  },
+  "mesh": {
+    "item": "exdeorum:netherite_mesh"
+  },
+  "result": {
+    "id": "minecraft:ancient_debris"
+  },
+  "result_amount": {
+    "type": "minecraft:binomial",
+    "n": 1.0,
+    "p": 0.01
+  }
+}

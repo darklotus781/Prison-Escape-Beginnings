@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0.25,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:base_stone_nether"
+        },
+        "state": {
+          "Name": "darkblades:dark_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:end_stones"
+        },
+        "state": {
+          "Name": "darkblades:dark_ore"
+        }
+      }
+    ]
+  }
+}

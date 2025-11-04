@@ -1,0 +1,4 @@
+// Compost colors for darkdoppelganger. You may add your own colors, change existing ones, or remove colors that aren't needed.
+doppelganger_ring, #d9d2e3
+shadow_orb, #e0f0ee
+summon_scroll, #9e48bc

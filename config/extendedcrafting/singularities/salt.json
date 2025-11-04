@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.salt",
+  "colors": [
+    "FFF7C4",
+    "FFF7C4"
+  ],
+  "ingredient": {
+    "item": "mekanism:block_salt"
+  }
+}

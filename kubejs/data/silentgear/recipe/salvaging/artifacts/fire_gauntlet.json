@@ -1,0 +1,12 @@
+{
+    "type": "silentgear:salvaging",
+    "ingredient": {
+      "item": "artifacts:fire_gauntlet"
+    },
+    "results": [
+      {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    ]
+  }

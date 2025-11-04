@@ -1,0 +1,12 @@
+{
+    "type": "silentgear:salvaging",
+    "ingredient": {
+      "item": "artifacts:onion_ring"
+    },
+    "results": [
+      {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    ]
+  }

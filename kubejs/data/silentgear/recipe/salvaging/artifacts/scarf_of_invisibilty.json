@@ -1,0 +1,12 @@
+{
+    "type": "silentgear:salvaging",
+    "ingredient": {
+      "item": "artifacts:scarf_of_invisibility"
+    },
+    "results": [
+      {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    ]
+  }

@@ -1,0 +1,4 @@
+disablerEnabled = true
+disabledEnchantments = ["minecraft:fortune"]
+modifyMaxLevels = false
+maxLevels = ["minecraft:sharpness/5"]

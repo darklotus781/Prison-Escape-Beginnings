@@ -1,0 +1,3 @@
+// Compost colors for plant_farms. You may add your own colors, change existing ones, or remove colors that aren't needed.
+nether_upgrade, #6b5450
+speed_upgrade, #7c7978

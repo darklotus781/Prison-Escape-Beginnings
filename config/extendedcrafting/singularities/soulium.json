@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.soulium",
+  "colors": [
+    "542100",
+    "542100"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:soulium_ingot_block"
+  }
+}

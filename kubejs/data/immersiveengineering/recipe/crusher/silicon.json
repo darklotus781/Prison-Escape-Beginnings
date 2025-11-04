@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6400,
+  "input": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "ae2:silicon"
+    },
+    "count": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:target"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "id": "minecraft:hay_block"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "villager_summoner",
+  "width": 7,
+  "height": 7,
+  "depth": 7,
+  "controller": {
+    "x": 3,
+    "y": 3,
+    "z": 3
+  },
+  "structure": [
+    {
+      "layer": 0,
+      "pattern": [
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX"
+      ]
+    },
+    {
+      "layer": 1,
+      "pattern": [
+        "X     X",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "X     X"
+      ]
+    },
+    {
+      "layer": 2,
+      "pattern": [
+        "X     X",
+        "       ",
+        "   C   ",
+        "       ",
+        "       ",
+        "       ",
+        "X     X"
+      ]
+    },
+    {
+      "layer": 3,
+      "pattern": [
+        "X     X",
+        "       ",
+        "   C   ",
+        "       ",
+        "       ",
+        "       ",
+        "X     X"
+      ]
+    },
+    {
+      "layer": 4,
+      "pattern": [
+        "X     X",
+        "       ",
+        "   C   ",
+        "       ",
+        "       ",
+        "       ",
+        "X     X"
+      ]
+    },
+    {
+      "layer": 5,
+      "pattern": [
+        "X     X",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "X     X"
+      ]
+    },
+    {
+      "layer": 6,
+      "pattern": [
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX"
+      ]
+    }
+  ],
+  "legend": {
+    "X": {
+      "block": "minecraft:iron_block"
+    },
+    "C": {
+      "block": "modularmachinery:controller"
+    }
+  },
+  "ports": [
+    {
+      "type": "item_input",
+      "x": 3,
+      "y": 1,
+      "z": 3,
+      "block": "modularmachinery:item_input"
+    },
+    {
+      "type": "energy_input",
+      "x": 3,
+      "y": 1,
+      "z": 5,
+      "block": "modularmachinery:energy_input"
+    },
+    {
+      "type": "redstone_output",
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "block": "modularmachinery:redstone_output"
+    }
+  ]
+}

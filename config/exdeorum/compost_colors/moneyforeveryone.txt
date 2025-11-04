@@ -1,0 +1,10 @@
+// Compost colors for moneyforeveryone. You may add your own colors, change existing ones, or remove colors that aren't needed.
+briefcase, #9e9e9e
+coin_base, #ffffff
+coin_copper, #f0754a
+coin_diamond, #52fffb
+coin_gold, #ffed39
+coin_iron, #d3d3d3
+coin_nether_star, #ddfefe
+coin_netherite, #4d4446
+plant_moneelium, #b8cc7a

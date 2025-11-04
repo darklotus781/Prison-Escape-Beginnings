@@ -1,0 +1,13 @@
+[
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:spider"
+    ],
+    "healthmultiply": 1.2,
+    "armoradd": 1,
+    "result": "default"
+  }
+]

@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beehive",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:hopper",
+            "weight": 22,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magma_block",
+            "weight": 18,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_bed",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chest",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blast_furnace",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

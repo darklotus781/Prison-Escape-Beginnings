@@ -1,0 +1,204 @@
+# [1.0.1] (DarkLotus)
+- Added custom method of gathering pebbles by punching dirt, this is my own creation that supports holding a Pebble in the offhand to get more of that type.
+- Restructured KubeJS code
+  - Fixed Some Recipes
+  - Consolidated scripts to dedicated files per mod
+- Moved single CraftTweaker recipe to KubeJS, not sure the logic there...
+- Added Pack Title and Icon to show in taskbar! 
+- Fixed Opolis-Utilities Catalogue Recipes (not very good but fixed) 
+
+### MODS:  
+
+- Added Mods:
+- Updated Mods:
+  - Cucumber Library
+  - Extended Crafting
+  - Mystical Agradditions
+  - Mystical Agriculture
+- Removed Mods:
+  - CraftTweaker (not used)
+
+# [1.0.0] (DarkLotus)
+- Added tags to blocks to prevent phasing via just dire things
+- Removed some welcome message spam from mods
+- updated Neoforge to 21.1.211
+- Fixed Prison Structure out of bounds issues.
+- Added Mods:
+  - Configured Defaults
+  - FTB Library(Forge)
+  - FTB Pack Companion (allows player choice of shaders instead of default to on.)
+- Removed Mods:
+  - Let Me Despawn (crashed)
+- Updated mods:
+  - Accessories
+  - Actually Additions
+  - Advanced AE
+  - AE2
+  - Almanac Lib
+  - Almost Unified
+  - Amendments
+  - Applied Energistics 2 Wireless Terminals
+  - Applied Mekanistics
+  - Artifacts
+  - AllTheOres
+  - AttributeFix
+  - AvaritiaNeo
+  - BaguetteLib
+  - Balm
+  - Bank Storage
+  - Baubley Heart Canisters
+  - BBL Utility
+  - BlockUI
+  - Bonsai Trees 4
+  - Bookshelf
+  - Brutal Bosses - Custom Bosses[Forge/Fabric]
+  - BucketLib
+  - Building Gadgets
+  - Cable Facades
+  - Cable Tiers
+  - Client Tweaks
+  - Collective
+  - Colorful Hearts
+  - Common Capabilities
+  - Compact Machines
+  - Configured
+  - Connectivity
+  - Construction Sticks
+  - Cooking for Blockheads
+  - CorgiLib
+  - Corpse
+  - Corpse x Curios API Compat
+  - Crafting Station: J/EMI Edition Updated
+  - Crafting Tweaks
+  - CraftTweaker
+  - CreativeCore
+  - Cucumber Library
+  - Cyclops Core
+  - Default Options
+  - Deimos Lib
+  - DimStorage
+  - Durability Tooltip
+  - Easy Mob Farm
+  - Easy NPC
+  - Easy Villagers
+  - Easy Villagers
+  - Enchantment Descriptions
+  - Ender IO
+  - EnderChests
+  - Entity Culling Fabric/Forge
+  - Euphoria Patches
+  - EventsLib
+  - Ex Deorum
+  - Ex Machinis: Divitiae Deorum
+  - ExtendedAE
+  - Extra Disks
+  - Extreme Reactors
+  - Extreme sound muffler - (Neo)Forge
+  - FancyMenu
+  - Farming for Blockheads
+  - Forgified Fabric API
+  - Forgiving Void
+  - Framed Blocks
+  - FTB Chunks (Forge)
+  - FTB Essentials (Forge & Fabric)
+  - FTB Filter System
+  - FTB Quests (Forge)
+  - FTB Stuff & Things
+  - FTB Teams (Forge)
+  - FTB Ultimine (Forge)
+  - FTB XMod Compat
+  - Fullblock Energistics
+  - Functional Storage
+  - Fusion (Connected Textures)
+  - Fzzy Config
+  - GeckoLib
+  - Get It Together, Drops!
+  - Glassential Renewed
+  - GuideME
+  - Huge Structure Blocks [Fabric & Forge]
+  - Immersive Engineering
+  - Industrial Foregoing
+  - Industrial Foregoing Souls
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Terminals
+  - Integrated Tunnels
+  - Interdimensional Wireless Transmitter
+  - Inventory Essentials
+  - Iron Jetpacks
+  - Iron's Spells 'n Spellbooks
+  - Jade 🔍
+  - Jump Over Fences
+  - Just Enough Effect Descriptions (JEED)
+  - Just Enough Immersive Multiblocks
+  - Just Enough Items (JEI)
+  - Just Enough Mekanism Multiblocks
+  - JustHammers
+  - Kiwi 🥝 (Neo/Forge)
+  - KleeSlabs
+  - Kotlin for Forge
+  - Lithostitched
+  - Lychee (Neo/Forge)
+  - McJtyLib
+  - ME Requester
+  - MEGA Cells
+  - Mekanism
+  - Mekanism Additions
+  - Mekanism Generators
+  - Mekanism Tools
+  - MES - Moog's End Structures
+  - MmmMmmMmmMmm (Target Dummy)
+  - Mob Grinding Utils
+  - ModernFix
+  - Modular Machinery Reborn
+  - Modular Routers
+  - Moonlight Lib
+  - More Overlays Updated
+  - Mystical Agradditions
+  - Mystical Agriculture
+  - OctoLib
+  - Oracle Index
+  - oωo (owo-lib)
+  - Packet Fixer
+  - Pam's HarvestCraft 2 - Food Core
+  - Patchouli
+  - Placebo
+  - Pocket Storage
+  - PolyLib
+  - Polymorph (Fabric/Forge/Quilt)
+  - Powah! (Rearchitected)
+  - Prickle
+  - Project Expansion
+  - Puzzles Lib
+  - Refined Storage
+  - Refined Storage - Quartz Arsenal
+  - Relics
+  - Reliquary Reincarnations
+  - Replication
+  - RFTools Base
+  - RightClickHarvest
+  - Savage Ender Dragon[Forge/Fabric]
+  - Sawmill
+  - Security Craft
+  - ShetiPhianCore
+  - Silent Gear
+  - Silent's Gems
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Sophisticated Storage
+  - Sound Physics Remastered
+  - Super Factory Manager ( SFM )
+  - Supplementaries
+  - Tank Storage
+  - Tesseract
+  - Tips
+  - Titanium
+  - Tool Belt
+  - Torchmaster
+  - Utilitarian
+  - Visuality: Reforged
+  - Waystones
+  - Wooden Bucket
+  - YetAnotherConfigLib
+  - ZeroCore 2

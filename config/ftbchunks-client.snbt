@@ -1,0 +1,471 @@
+# Client-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-client.snbt
+#   (may be overwritten on modpack update)
+# Players may locally override this by copying into <instance>/local/ftbchunks-client.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	advanced: {
+		# Enables debug info
+		# Default: false
+		debug_info: false
+		
+		# Advanced option. Change how often the minimap will refresh icons
+		# Default: 500
+		# Range: 0 ~ 10000
+		minimap_icon_update_timer: 500
+		
+		# Advanced option. How often map render update will be queued
+		# Default: 60
+		# Range: 1 ~ 600
+		rerender_queue_ticks: 60
+		
+		# Advanced option. Max tasks that can queue up
+		# Default: 100
+		# Range: 1 ~ 10000
+		task_queue_max: 100
+		
+		# Advanced option. How often queued tasks will run
+		# Default: 4
+		# Range: 1 ~ 300
+		task_queue_ticks: 4
+		memory: {
+			# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
+			# Default: 32
+			# Range: 0 ~ 2147483647
+			autorelease_on_map_close: 32
+			
+			# Constrain maximum map zoom-out based on number of explored regions and available memory
+			# Default: true
+			max_zoom_constraint: true
+			
+			# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
+			# Default: 300
+			# Range: 0 ~ 2147483647
+			region_release_time: 300
+		}
+	}
+	appearance: {
+		# Biome blend
+		# Default: "blend_5x5"
+		# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
+		biome_blend: "blend_5x5"
+		
+		# Chunk grid overlay in large map
+		# Default: false
+		chunk_grid: false
+		
+		# Show claimed chunks on the map
+		# Default: true
+		claimed_chunks_on_map: true
+		
+		# Advanced option. Foliage darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		foliage_darkness: 50
+		
+		# Advanced option. Grass darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		grass_darkness: 50
+		
+		# Different ways to render map
+		# Default: "none"
+		# Valid values: "none", "night", "topography", "blocks", "light_sources"
+		map_mode: "none"
+		
+		# Noise added to map to make it look less plastic
+		# Default: 0.05
+		# Range: 0.0 ~ 0.5
+		noise: 0.05d
+		
+		# Only show entities that are on the surface
+		# Default: true
+		only_surface_entities: true
+		
+		# Show your own claimed chunks on the map
+		# Default: true
+		own_claimed_chunks_on_map: true
+		
+		# Reduces color palette to 256 colors
+		# Default: false
+		reduced_color_palette: false
+		
+		# Color intensity
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		saturation: 1.0d
+		
+		# Shadow intensity
+		# Default: 0.1
+		# Range: 0.0 ~ 0.3
+		shadows: 0.1d
+		
+		# How many blocks should height checks skip in water. 0 means flat water, ignoring terrain
+		# Default: 8
+		# Range: 0 ~ 128
+		water_height_factor: 8
+		
+		# Advanced option. Water visibility
+		# Default: 220
+		# Range: 0 ~ 255
+		water_visibility: 220
+	}
+	minimap: {
+		# Blurs minimap
+		# Default: "auto"
+		# Valid values: "auto", "on", "off"
+		blur_mode: "auto"
+		
+		# Adds NWSE compass inside minimap
+		# Default: true
+		compass: true
+		
+		# Enable minimap
+		# Default: true
+		enabled: true
+		
+		# Show entities on minimap
+		# Default: true
+		entities: true
+		
+		# Show entity heads on minimap
+		# Default: true
+		entity_heads: true
+		entity_icon: {
+			"monsterplus:soul": true
+			"artifacts:mimic": true
+			"minecraft:polar_bear": true
+			"aoa3:scolopendis": true
+			"minecraft:ender_dragon": true
+			"aoa3:tree_spirit": true
+			"minecraft:bogged": true
+			"minecraft:skeleton_horse": true
+			"aoa3:bomb_carrier": true
+			"aoa3:dark_hatchetfish": true
+			"minecraft:frog": true
+			"minecraft:zoglin": true
+			"minecraft:glow_squid": true
+			"minecraft:shulker": true
+			"aoa3:meganeuropsis": true
+			"minecraft:villager": true
+			"aquaculture:bluegill": false
+			"minecraft:cave_spider": true
+			"aoa3:charger": true
+			"aoa3:goblin": true
+			"aoa3:undead_herald": true
+			"aoa3:little_bam": true
+			"minecraft:dolphin": true
+			"aoa3:leafy_giant": true
+			"minecraft:pillager": true
+			"aquaculture:minnow": false
+			"minecraft:vex": true
+			"minecraft:panda": true
+			"aoa3:skeletron": true
+			"minecraft:ravager": true
+			"minecraft:axolotl": true
+			"aoa3:infernal": true
+			"monsterplus:ender_eye": true
+			"aoa3:sasquatch": true
+			"minecraft:salmon": false
+			"aoa3:corrupted_traveller": true
+			"minecraft:pufferfish": false
+			"minecraft:ocelot": true
+			"aquaculture:muskellunge": false
+			"monsterplus:ancient_hero": true
+			"untitledduckmod:goose": true
+			"minecraft:warden": true
+			"aoa3:tyrosaur": true
+			"minecraft:trader_llama": true
+			"minecraft:illusioner": true
+			"aquaculture:atlantic_cod": false
+			"deeperdarker:sludge": true
+			"minecraft:zombie_horse": true
+			"aoa3:ghost": true
+			"minecraft:wolf": true
+			"minecraft:wither_skeleton": true
+			"irons_spellbooks:necromancer": true
+			"waddles:adelie_penguin": true
+			"minecraft:cat": true
+			"minecraft:enderman": true
+			"aoa3:nethengeic_wither": true
+			"minecraft:witch": true
+			"irons_spellbooks:summoned_polar_bear": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:cod": false
+			"aoa3:bush_baby": true
+			"aoa3:stone_giant": true
+			"minecraft:slime": true
+			"minecraft:allay": true
+			"minecraft:mooshroom": true
+			"aoa3:veloraptor": true
+			"mekanismadditions:baby_skeleton": true
+			"aquaculture:pollock": false
+			"bosses_of_mass_destruction:obsidilith": true
+			"monsterplus:overgrown_skeleton": true
+			"minecraft:turtle": true
+			"minecraft:pig": true
+			"minecraft:drowned": true
+			"minecraft:donkey": true
+			"mekanismadditions:baby_stray": true
+			"aquaculture:jellyfish": false
+			"aquaculture:red_grouper": false
+			"minecraft:parrot": true
+			"minecraft:creeper": true
+			"easy_npc:pillager": true
+			"minecraft:wither": true
+			"minecraft:chicken": true
+			"darkdoppelganger:dark_doppelganger": true
+			"takesapillage:archer": true
+			"minecraft:bat": true
+			"minecraft:llama": true
+			"aquaculture:pacific_halibut": false
+			"aoa3:ice_giant": true
+			"minecraft:evoker": true
+			"aquaculture:bayad": false
+			"minecraft:fox": true
+			"deeperdarker:sculk_snapper": true
+			"minecraft:silverfish": true
+			"aoa3:ancient_golem": true
+			"minecraft:bee": true
+			"minecraft:endermite": true
+			"aoa3:sand_giant": true
+			"monsterplus:desert_acolyte": true
+			"aoa3:king_charger": true
+			"aoa3:void_walker": true
+			"monsterplus:spectral_skull": true
+			"irons_spellbooks:summoned_zombie": true
+			"monsterplus:wisp": true
+			"minecraft:iron_golem": true
+			"minecraft:horse": true
+			"monsterplus:swamp_zombie": true
+			"monsterplus:demon_eye": true
+			"minecraft:zombified_piglin": true
+			"minecraft:blaze": true
+			"minecraft:giant": true
+			"aoa3:dunkleosteus": true
+			"aquaculture:pink_salmon": false
+			"aoa3:nethengeic_beast": true
+			"minecraft:camel": true
+			"monsterplus:crystal_zombie": true
+			"minecraft:piglin": true
+			"monsterplus:abyssologer": true
+			"aquaculture:blackfish": false
+			"minecraft:magma_cube": true
+			"deeperdarker:shattered": true
+			"minecraft:skeleton": true
+			"monsterplus:glow_skeleton": true
+			"aoa3:horndron": true
+			"monsterplus:opalescent_eye": true
+			"minecraft:goat": true
+			"minecraft:breeze": true
+			"aoa3:smilodon": true
+			"irons_spellbooks:summoned_skeleton": true
+			"minecraft:strider": true
+			"minecraft:hoglin": true
+			"aquaculture:synodontis": false
+			"monsterplus:lava_squid": true
+			"aquaculture:atlantic_halibut": false
+			"distantfriends:friend": true
+			"minecraft:zombie_villager": true
+			"aoa3:deinotherium": true
+			"minecraft:husk": true
+			"aoa3:wood_giant": true
+			"minecraft:elder_guardian": true
+			"minecraft:phantom": true
+			"aquaculture:brown_trout": false
+			"minecraft:tadpole": true
+			"minecraft:squid": true
+			"deeperdarker:angler_fish": true
+			"minecraft:zombie": true
+			"aquaculture:smallmouth_bass": false
+			"aoa3:spinoledon": true
+			"minecraft:sniffer": true
+			"aoa3:attercopus": true
+			"aoa3:lottoman": true
+			"aquaculture:gar": false
+			"deeperdarker:sculk_centipede": true
+			"aoa3:cyclops": true
+			"aoa3:chomper": true
+			"minecraft:ghast": true
+			"minecraft:stray": true
+			"minecraft:piglin_brute": true
+			"minecraft:cow": true
+			"aquaculture:boulti": false
+			"aoa3:skill_master": true
+			"minecraft:tropical_fish": false
+			"aquaculture:catfish": false
+			"minecraft:guardian": true
+			"aquaculture:perch": false
+			"minecraft:sheep": true
+			"minecraft:rabbit": true
+			"easy_npc:husk": true
+			"minecraft:mule": true
+			"irons_spellbooks:archevoker": true
+			"aquaculture:capitaine": false
+			"minecraft:wandering_trader": true
+			"monsterplus:spectral_skeleton": true
+			"aquaculture:atlantic_herring": false
+			"aquaculture:carp": false
+			"aoa3:opteryx": true
+			"aquaculture:tuna": false
+			"aoa3:yeti": true
+			"minecraft:armadillo": true
+			"aoa3:embrake": true
+			"bosses_of_mass_destruction:gauntlet": true
+			"aquaculture:rainbow_trout": false
+			"aoa3:flamewalker": true
+			"untitledduckmod:duck": true
+			"minecraft:vindicator": true
+			"monsterplus:desert_sorceress": true
+			"minecraft:spider": true
+		}
+		
+		# Minimap font scaling (values not a multiple of 0.5 may look bad)
+		# Default: 0.5
+		# Range: 0.1 ~ 5.0
+		font_scale: 0.5d
+		
+		# Info hidden under minimap
+		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_hidden: [
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		
+		# Info displayed under minimap
+		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_order: [
+			"ftbchunks:player_pos"
+			"ftbchunks:biome"
+			"ftbchunks:zone"
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		info_settings: { }
+		
+		# Entities in minimap will be larger
+		# Default: false
+		large_entities: false
+		
+		# Minimap will not rotate
+		# Default: true
+		locked_north: true
+		
+		# Show player heads on minimap
+		# Default: true
+		player_heads: true
+		
+		# Mode for the pointer icon to render on full screen minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode: "both"
+		
+		# Mode for the pointer icon to render on minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode_minimap: "both"
+		
+		# Enables minimap to show up in corner
+		# Default: "top_right"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
+		position: "top_right"
+		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_x: 0
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_y: 0
+		
+		# Size minimap proportional to screen width (and scale)
+		# Default: true
+		proportional: true
+		
+		# Draw reticle lines on minimap
+		# Default: true
+		reticle: true
+		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.0d
+		
+		# Always show player on minimap, even when rotation not locked
+		# Default: true
+		show_player_when_unlocked: true
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
+		
+		# Show text above minimap
+		# Default: false
+		text_above_minimap: false
+		
+		# Minimap visibility
+		# Default: 255
+		# Range: 0 ~ 255
+		visibility: 255
+		
+		# Show waypoints on minimap
+		# Default: true
+		waypoints: true
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 1.0d
+	}
+	waypoints: {
+		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		death_waypoint_autoremove_distance: 0
+		
+		# Enables creation of death waypoints
+		# Default: true
+		death_waypoints: true
+		
+		# Show waypoints in world
+		# Default: true
+		in_world_waypoints: true
+		
+		# Minimum distance before waypoint dots start to fade
+		# Default: 1.0
+		# Range: 1.0 ~ 200.0
+		waypoint_dot_fade_distance: 1.0d
+		
+		# Minimum distance before waypoint beacons start to fade
+		# Default: 12.0
+		# Range: 1.0 ~ 200.0
+		waypoint_fade_distance: 12.0d
+		
+		# How close player crosshair needs to be to in-world waypoints to show waypoint labels
+		# Default: 1.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_distance: 1.0d
+		
+		# How much do in-world waypoints enlarge when the player crosshair is close
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_scale: 2.0d
+		
+		# Maximum distance at which waypoints are drawn
+		# Default: 5000.0
+		# Range: 1.0 ~ 2.147483647E9
+		waypoint_max_distance: 5000.0d
+	}
+}

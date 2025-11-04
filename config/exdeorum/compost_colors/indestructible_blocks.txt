@@ -1,0 +1,2 @@
+// Compost colors for indestructible_blocks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+destructibility_editor, #aaa4a4

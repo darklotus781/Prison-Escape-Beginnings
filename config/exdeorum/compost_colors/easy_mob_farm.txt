@@ -1,0 +1,24 @@
+// Compost colors for easy_mob_farm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+big_slot_upgrade, #c5c8e8
+blank_mob_capture_card, #eb9655
+creative_blank_mob_capture_card, #bcccb4
+creative_mob_catcher, #a57551
+creative_speed_enhancement, #daa09e
+egg_collector_enhancement, #c99d57
+enduring_capture_net, #835c33
+experience_enhancement, #84bcb6
+honey_extractor_enhancement, #ffd662
+honey_harvester_frame_enhancement, #be6f2d
+ironbound_containment_cage, #76625a
+loot_enhancement, #e4b6b4
+luck_enhancement, #b6c6a4
+mob_capture_card, #e8cc98
+mystic_binding_crystal, #78a498
+no_flowers_filter, #f1caa4
+no_meat_filter, #ffa59b
+pollen_trap_enhancement, #e7a72f
+sheep_enhancement, #d9c9dd
+small_slot_upgrade, #c8bfdc
+speed_enhancement, #daa09e
+sword_enhancement, #e8a0b8
+void_binding_chain, #51479e

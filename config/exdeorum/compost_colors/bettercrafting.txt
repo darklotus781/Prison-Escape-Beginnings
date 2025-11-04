@@ -1,0 +1,3 @@
+// Compost colors for bettercrafting. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cooked_carrot, #877f1c
+copper_nugget, #fa7d55

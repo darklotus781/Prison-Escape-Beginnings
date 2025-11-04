@@ -1,0 +1,5 @@
+// Compost colors for ksecurity. You may add your own colors, change existing ones, or remove colors that aren't needed.
+key_card_basic, #6e70bb
+key_programmer, #191919
+key_scanner, #446628
+key_scanner_block, #446628

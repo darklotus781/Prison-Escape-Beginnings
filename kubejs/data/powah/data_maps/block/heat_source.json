@@ -1,0 +1,13 @@
+{
+  "values": {
+    "minecraft:magma_block": {
+      "temperature": 800
+    },
+    "powah:blazing_crystal_block": {
+      "temperature": 2800
+    },
+    "powah:nitro_crystal_block": {
+      "temperature": 5000
+    }
+  }
+}

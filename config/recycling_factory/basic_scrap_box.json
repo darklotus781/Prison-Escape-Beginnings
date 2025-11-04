@@ -1,0 +1,27 @@
+{
+  "add": [
+    { "type": "item", "id": "minecraft:coal", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:charcoal", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:raw_iron", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:iron_ingot", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:raw_copper", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:copper_ingot", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:raw_gold", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:gold_ingot", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:redstone", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:lapis_lazuli", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:clay_ball", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:brick", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:flint", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:gravel", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:sand", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:dirt", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:cobblestone", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:stone", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:granite", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:andesite", "chance": 5.0 }
+  ],
+  "remove": [
+    { "type": "item", "id": "minecraft:coal" }
+  ]
+}

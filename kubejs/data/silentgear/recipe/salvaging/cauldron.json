@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:cauldron"
+  },
+  "results": [
+    {
+      "count": 7,
+      "id": "minecraft:iron_ingot"
+    }
+  ]
+}

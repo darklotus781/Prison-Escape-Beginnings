@@ -1,0 +1,17 @@
+{
+  "type": "aoa3:new_feature",
+  "biomes": {
+    "if_all": [
+      "#aoa3:is_precasia"
+    ]
+  },
+  "features": "aoa3:ore_runium_small",
+  "gen_step": "underground_ores",
+  "conditions": [
+    {
+      "type": "neoforge:biome_tag_check",
+      "tag": "aoa3:is_precasia",
+      "inverted": false
+    }
+  ]
+}

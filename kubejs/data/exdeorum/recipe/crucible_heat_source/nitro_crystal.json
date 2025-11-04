@@ -1,0 +1,7 @@
+{
+  "type": "exdeorum:crucible_heat_source",
+  "block_predicate": {
+    "block": "powah:nitro_crystal_block"
+  },
+  "heat_value": 15
+}

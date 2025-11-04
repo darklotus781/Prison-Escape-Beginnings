@@ -1,0 +1,11 @@
+// Compost colors for untitledduckmod. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cooked_duck, #ffeac3
+cooked_goose, #f89d68
+duck_egg, #ffffff
+duck_feather, #cdd0de
+duck_sack, #eeca9d
+empty_duck_sack, #ffd7c0
+goose_egg, #fffff1
+goose_foot, #ffffff
+raw_duck, #fffffe
+raw_goose, #ffd9bf

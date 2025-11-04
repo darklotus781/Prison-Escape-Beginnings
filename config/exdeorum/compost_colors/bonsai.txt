@@ -1,0 +1,13 @@
+// Compost colors for bonsai. You may add your own colors, change existing ones, or remove colors that aren't needed.
+acacia_bonsai_clippings, #eae38e
+acacia_bonsai_seeds, #ffffff
+birch_bonsai_clippings, #ffffff
+birch_bonsai_seeds, #ffffff
+darkoak_bonsai_clippings, #c9d7a7
+darkoak_bonsai_seeds, #ffffff
+jungle_bonsai_clippings, #b2bc87
+jungle_bonsai_seeds, #ffffff
+oak_bonsai_clippings, #faf4d9
+oak_bonsai_seeds, #ffffff
+spruce_bonsai_clippings, #aeac96
+spruce_bonsai_seeds, #ffffff

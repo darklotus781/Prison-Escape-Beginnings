@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "results": [
+    {
+      "count": 6,
+      "id": "minecraft:iron_nugget"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:iron_ingot"
+    }
+  ]
+}

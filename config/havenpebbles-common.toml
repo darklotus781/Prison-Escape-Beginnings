@@ -1,0 +1,6 @@
+#Enable pebbles?
+enablePebbles = false
+#When right clicking to get pebbles, should it emit sound?
+emitPebbleSound = false
+#Block to pebble mappings
+blockPebbleMappings = ["minecraft:dirt;exdeorum:andesite_pebble:1,havenpebbles:calcite_pebble:0,exdeorum:deepslate_pebble:1,exdeorum:diorite_pebble:1,exdeorum:blackstone_pebble:0,exdeorum:granite_pebble:1,havenpebbles:tuff_pebble:0,exdeorum:stone_pebble:10", "minecraft:grass_block;havenpebbles:andesite_pebble:1,havenpebbles:calcite_pebble:1,havenpebbles:deepslate_pebble:1,havenpebbles:diorite_pebble:1,havenpebbles:dripstone_pebble:1,havenpebbles:granite_pebble:1,havenpebbles:tuff_pebble:1,havenpebbles:stone_pebble:1", "minecraft:netherrack;havenpebbles:netherrack_pebble:1,havenpebbles:basalt_pebble:1,havenpebbles:blackstone_pebble:1", "minecraft:soul_sand;havenpebbles:netherrack_pebble:1,havenpebbles:basalt_pebble:1,havenpebbles:blackstone_pebble:1"]

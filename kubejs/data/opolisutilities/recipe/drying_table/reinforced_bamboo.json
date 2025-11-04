@@ -1,0 +1,12 @@
+{
+  "type": "opolisutilities:drying_table",
+  "duration": 2600,
+  "input": {
+    "count": 1,
+    "item": "minecraft:bamboo_block"
+  },
+  "output": {
+    "count": 1,
+    "id": "securitycraft:reinforced_bamboo_block"
+  }
+}

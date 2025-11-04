@@ -1,0 +1,4 @@
+// Compost colors for theoldone. You may add your own colors, change existing ones, or remove colors that aren't needed.
+holyshards, #ffffdc
+old_ones_heart, #7f231c
+the_old_ones_sword, #547c79

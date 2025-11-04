@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [],
+  "features": "moneyforeveryone:plant_moneelium",
+  "step": "vegetal_decoration"
+}

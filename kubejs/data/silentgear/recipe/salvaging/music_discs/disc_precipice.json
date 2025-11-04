@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:music_disc_precipice"
+  },
+  "results": [
+    {
+      "count": 1,
+      "id": "industrialforegoing:plastic"
+    }
+  ]
+}

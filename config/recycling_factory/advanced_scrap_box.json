@@ -1,0 +1,25 @@
+{
+  "add": [
+    { "type": "item", "id": "minecraft:emerald", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:quartz", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:nether_brick", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:blaze_powder", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:glowstone_dust", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:magma_cream", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:ghast_tear", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:gold_nugget", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:experience_bottle", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:amethyst_shard", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:honey_bottle", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:ender_pearl", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:shroomlight", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:crying_obsidian", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:soul_sand", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:basalt", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:netherrack", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:nether_wart", "chance": 5.0 },
+    { "type": "item", "id": "minecraft:warped_fungus", "chance": 5.0 },
+    { "type": "item", "id": "ae2:silicon", "chance": 1.0 }
+  ],
+  "remove": []
+}

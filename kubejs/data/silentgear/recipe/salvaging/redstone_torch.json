@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:redstone_torch"
+  },
+  "results": [
+    {
+      "count": 1,
+      "id": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "id": "minecraft:stick"
+    }
+  ]
+}

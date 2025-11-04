@@ -1,0 +1,84 @@
+[effects]
+	#the size of the explosion caused by the explosive effect
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	explosion_size = 2.0
+	#the type of explosion mode for blocks  options: NONE, BLOCK, MOB, TNT, TRIGGER
+	#Allowed Values: NONE, BLOCK, MOB, TNT, TRIGGER
+	explosion_mode = "TNT"
+	#the chance of being granted slowness x while under the effects of the drumble debuff, expressed as 1 in X
+	# Default: 30
+	# Range: > 0
+	fumble_chance = 30
+	#the maximum amount of durability damage applied (randomly from 1 to X)
+	# Default: 3
+	# Range: > 0
+	durability_damage = 3
+	#the chance as a percent per tick of the potion effect that a tool or sword will take durability damage
+	# Default: 0.015
+	# Range: 0.0 ~ 1.7976931348623157E308
+	durability_chance = 0.015
+	#whether or not crumble will damage items at or below 10 durability
+	nice_mode = true
+	#whether or not potion effects given by bees should persist through death
+	effects_persist = true
+	#if `effects_persist` is true and this is true, only effects in the gsu:effects_persist tag will persist through death
+	effects_persist_tag = false
+	#whether or not the `dying` potion effect should produce log debug messages for expirations
+	debug_effects = false
+	#the amount of knockup that should be added to an entity's attacks
+	# Default: 1.8
+	# Range: 0.0 ~ 5.0
+	knockup = 1.8
+	#whether or not potion effects should show particles
+	hide_particles = false
+	#how long a fire (or delayed fire) potion effect should set an entity on fire (in seconds)
+	# Default: 5
+	# Range: > 0
+	fire_duration = 5
+	#the radius of blocks that should be set on fire when a splash potion of fire is thrown
+	# Default: 3
+	# Range: > 0
+	fire_radius = 3
+
+[commands]
+	#whether commands should be registered for each time (/midnight, /night, /sunrise, etc) [default: true]
+	register_time = true
+	#the permission level required for all commands
+	# Default: 2
+	# Range: 0 ~ 4
+	permission_level = 2
+
+	[commands."time commands"]
+		#the length of a day in ticks [default: 24,000]
+		# Default: 24000
+		# Range: 0 ~ 9223372036854775807
+		day_length = 24000
+		#the value of 'night', i.e., when you can sleep in a bed [default: 12542]
+		# Default: 12010
+		# Range: > 0
+		night_time = 12010
+		#the value of midnight [default: 18000]
+		# Default: 18000
+		# Range: > 0
+		midnight_time = 18000
+		#the value of 'morning', i.e., when you wake up [default: 0
+		# Default: 0
+		# Range: > 0
+		morning_time = 0
+		#the value of sunset [default: 12000]
+		# Default: 12000
+		# Range: > 0
+		sunset_time = 12000
+		#the value of sunrise [default: 23000]
+		# Default: 23000
+		# Range: > 0
+		dawn_time = 23000
+		#the value of midday or noon [default: 6000]
+		# Default: 6000
+		# Range: > 0
+		midday_time = 6000
+
+[goals]
+	#goals that should not be discarded when making an entity hostile
+	goals_to_keep = []

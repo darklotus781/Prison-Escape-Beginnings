@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "inputFluid": {
+    "amount": 50,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 4,
+    "id": "minecraft:black_dye"
+  },
+  "processingTime": 100
+}

@@ -1,0 +1,16 @@
+{
+  "type": "aoa3:new_mob_spawn",
+  "biomes": {
+    "if_all": [
+      "#minecraft:is_nether"
+    ]
+  },
+  "spawn": [
+    {
+      "type": "aoa3:infernal",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 25
+    }
+  ]
+}

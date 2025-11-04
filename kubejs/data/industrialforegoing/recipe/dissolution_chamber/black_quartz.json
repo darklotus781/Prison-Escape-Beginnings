@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "actuallyadditions:black_quartz"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "dimensionaltrialchambers:obsidian_bulb"
+    },
+    {
+      "item": "dimensionaltrialchambers:obsidian_bulb"
+    },
+    {
+      "item": "dimensionaltrialchambers:obsidian_bulb"
+    },
+    {
+      "item": "dimensionaltrialchambers:obsidian_bulb"
+    },
+    {
+      "item": "dimensionaltrialchambers:obsidian_bulb"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "minecraft:lava"
+  },
+  "output": {
+    "count": 10,
+    "id": "actuallyadditions:black_quartz"
+  },
+  "processingTime": 500
+}

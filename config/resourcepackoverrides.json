@@ -1,0 +1,21 @@
+{
+  "schema_version": "2",
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "file/alien_prison_voice_pack_v2.zip",
+    "file/prison_texture_pack.zip"
+  ],
+  "pack_overrides": {
+    "1": [
+      "file/alien_prison_voice_pack_v2.zip",
+      "file/prison_texture_pack.zip"
+    ],
+    "$$1": {
+      "hidden": false,
+      "required": true,
+      "force_compatible": true
+    }
+  }
+}

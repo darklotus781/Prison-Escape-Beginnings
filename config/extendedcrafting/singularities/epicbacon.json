@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.epicbacon",
+  "colors": [
+    "14AA00",
+    "14AAF8"
+  ],
+  "ingredient": {
+    "item": "pamhc2foodcore:epicbaconitem"
+  }
+}

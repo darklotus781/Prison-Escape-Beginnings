@@ -1,0 +1,12 @@
+{
+  "type": "opolisutilities:drying_table",
+  "duration": 1200,
+  "input": {
+    "count": 1,
+    "item": "minecraft:oak_planks"
+  },
+  "output": {
+    "count": 1,
+    "id": "securitycraft:reinforced_oak_planks"
+  }
+}

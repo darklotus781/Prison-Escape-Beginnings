@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "immersiveengineering:raw_uranium"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "aoa3:limonite_block"
+    },
+    {
+      "item": "aoa3:limonite_block"
+    },
+    {
+      "item": "aoa3:limonite_block"
+    },
+    {
+      "item": "aoa3:limonite_block"
+    },
+    {
+      "item": "aoa3:limonite_block"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "industrialforegoing:meat"
+  },
+  "output": {
+    "count": 4,
+    "id": "immersiveengineering:raw_uranium"
+  },
+  "processingTime": 2000
+}

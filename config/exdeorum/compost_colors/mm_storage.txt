@@ -1,0 +1,10 @@
+// Compost colors for mm_storage. You may add your own colors, change existing ones, or remove colors that aren't needed.
+item_bag_diamond, #47cdc9
+item_bag_gold, #ffe439
+item_bag_iron, #cdcccc
+item_bag_simple, #aa5133
+item_bag_void, #54206c
+item_crate_diamond, #46a7ae
+item_crate_gold, #d3a42a
+item_crate_iron, #afafaf
+item_experience_book, #97c054

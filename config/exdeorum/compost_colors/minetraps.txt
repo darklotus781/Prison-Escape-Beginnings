@@ -1,0 +1,5 @@
+// Compost colors for minetraps. You may add your own colors, change existing ones, or remove colors that aren't needed.
+barbed_wire_fence, #e7e7e7
+nails, #ffffff
+toxin_bottle, #fffff2
+toxin_bucket, #87af87

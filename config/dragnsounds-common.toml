@@ -1,0 +1,32 @@
+["DragNSounds API Config"]
+	#If active, a file cleanup will be performed at server startup to clean up unreachable ('dead') files or empty folders.
+	cleanup_on_server_start = true
+
+	["DragNSounds API Config".debug]
+		#Enables advanced logging features and more detailed console output.
+		advanced_logging = false
+
+	["DragNSounds API Config".permission]
+		#Minimum permission level required to use the basic features of the /sound command, such as playing, stopping and modifying sounds.
+		#Range: 0 ~ 4
+		sound_command_usage = 2
+		#Minimum permission level required to use all features of the /sound command, such as uploading and deleting sound files.
+		#Range: 0 ~ 4
+		sound_command_management = 3
+
+	["DragNSounds API Config".user_uploads]
+		#How many audio files one user can upload. (Default: -1, -1 = unlimited, 0 = none)
+		#Range: > -1
+		max_files = -1
+		#[in Bytes]
+		#Maximum audio file storage space per user. (Default: -1, -1 = unlimited, 0 = none)
+		#Range: -1 ~ 9223372036854775807
+		max_storage_size = -1
+		#[in Bytes]
+		#Maximum size of one single audio file a user can upload. (Default: -1, -1 = unlimited, 0 = none)
+		#Range: -1 ~ 1073741824
+		max_file_size = -1
+		#[in Milliseconds]
+		#Maximum duration of one single audio file a user can upload. (Default: -1, -1 = unlimited, 0 = none)
+		#Range: -1 ~ 9223372036854775807
+		max_audio_duration = -1
