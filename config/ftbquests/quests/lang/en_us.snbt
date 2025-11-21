@@ -697,6 +697,8 @@
 		"The otherside portal is the entrypoint to the Otherside. "
 		""
 		"It follows the same shape as the nether portal, but has a minimum height of 2 instead of 3 by default, along with being composed of reinforced deepslate."
+		""
+		"This portal is lit with the &3Heart of the Deep&r."
 	]
 	quest.4ADFC4AA43E1E0DD.title: "Deeper Darker"
 	quest.4B96DC802C8FDF82.quest_desc: ["&e&lTIP:&r Hold shift-Right Click on dirt to optain pebbles which can be used to make stone and stone tools.&r"]
@@ -714,6 +716,11 @@
 		"We're flying now! One step closer to bringing us all home!"
 		""
 		"Keep those &bSupreme Machine Frames&r going, you're going to need them!"
+	]
+	quest.4D6A0F4365AD385E.quest_desc: [
+		"The Deep Dark portal will take you to the, well, Deep Dark... "
+		""
+		"Make a traditional portal shape out of &3Reinforced Deep Slate&r, then light it with the &3Echoite and Flint&r."
 	]
 	quest.4DCB6665F9FF6812.quest_desc: ["&4These dimensions are still in development, check the mod page for updates before buying.&r"]
 	quest.4DE7949331175BBC.title: "Replica Ore"
@@ -1112,6 +1119,7 @@
 		""
 		"{image:prison_escape:textures/quests/quest_4.png width:100 height:70 align:center fit:true}"
 	]
+	quest.76F99ACA1A4F6A1F.quest_subtitle: "Mines?  Is this someone's idea of a joke?  More like Prison Labor Camp.  Did you hear an explosion?"
 	quest.76F99ACA1A4F6A1F.title: "The Prison Mines"
 	quest.77114E9AEE99D70E.quest_desc: [
 		"Nether Wither is spawned by using an Explosive Idol on a Boss Altar."

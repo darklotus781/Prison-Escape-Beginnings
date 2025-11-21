@@ -5,15 +5,18 @@
   },
   "default_packs": [
     "file/alien_prison_voice_pack_v2.zip",
+    "file/AE2Blackout-V1.2.3.zip",
+    "file/waystones_1.21.1.zip",
     "file/prison_texture_pack.zip"
   ],
   "pack_overrides": {
     "1": [
       "file/alien_prison_voice_pack_v2.zip",
-      "file/prison_texture_pack.zip"
+      "file/AE2Blackout-V1.2.3.zip",
+      "file/waystones_1.21.1.zip"
     ],
     "$$1": {
-      "hidden": false,
+      "hidden": true,
       "required": true,
       "force_compatible": true
     }

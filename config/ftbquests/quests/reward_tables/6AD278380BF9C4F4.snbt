@@ -424,7 +424,7 @@
 			id: "103932EA1D91D549"
 			item: {
 				count: 1
-				id: "mekanism:ingot_osmium"
+				id: "alltheores:osmium_ingot"
 			}
 			weight: 45.0f
 		}

@@ -1,5 +1,13 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "aoa3:aoa_essentia": {
+      "viewedEntries": [
+        "aoa3:the_portal"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

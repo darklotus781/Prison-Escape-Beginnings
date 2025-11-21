@@ -3,11 +3,11 @@ ServerEvents.recipes(event => {
 
     event.shaped('supplementaries:lock_block', [
         'CCC',
-        'LIL',
+        'AIA',
         'CCC'
     ], {
         C: 'minecraft:chain',
-        L: 'simplylight:wall_lamp',
+        A: 'minecraft:andesite',
         I: 'minecraft:white_wool'
     }).id('securitycraft:codebreaker_custom');
 });

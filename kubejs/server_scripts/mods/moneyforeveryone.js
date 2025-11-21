@@ -4,9 +4,8 @@ ServerEvents.recipes(event => {
     event.remove({output: 'moneyforeveryone:coin_gold'});
     event.remove({output: 'moneyforeveryone:coin_iron'});
     event.remove({output: 'moneyforeveryone:coin_copper'});
-    event.remove({output: 'moneyforeveryone:atm'});
-    event.remove({output: 'moneyforeveryone:circuit_board'});
-    event.remove({output: 'moneyforeveryone:atm'});
+    event.remove({id: 'moneyforeveryone:atm_recipe'});
+    event.remove({id: 'moneyforeveryone:circuit_board_recipe'});
 
     // Upgrade 5 copper → 1 iron
     event.shapeless(

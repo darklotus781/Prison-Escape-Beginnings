@@ -23,8 +23,8 @@
 		{ id: "1ACC21FDC6AC6462", item: { count: 1, id: "silentgems:black_diamond" } }
 		{ id: "6D06543FE1EC8E6A", item: { count: 1, id: "silentgems:white_diamond" } }
 		{ id: "3874F30352CEC4DC", item: { count: 1, id: "silentgems:raw_silver" } }
-		{ id: "54F466F9EE3EA9FD", item: { count: 1, id: "silentgems:silver_ingot" } }
-		{ id: "78F7DD4B3C7CC1F0", item: { count: 1, id: "silentgems:silver_nugget" } }
+		{ id: "54F466F9EE3EA9FD", item: { count: 1, id: "alltheores:silver_ingot" } }
+		{ id: "78F7DD4B3C7CC1F0", item: { count: 1, id: "alltheores:silver_nugget" } }
 		{ id: "445C6D47FB3B86C0", item: { count: 1, id: "silentgems:chaos_essence" } }
 		{ id: "389C5FEBFB4AB042", item: { count: 1, id: "silentgems:summon_kitty" } }
 		{ id: "65B978BC8E8534A4", item: { count: 1, id: "silentgems:summon_puppy" } }

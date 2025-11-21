@@ -12,7 +12,7 @@
 			id: "2E992C65200C7645"
 			item: {
 				count: 1
-				id: "immersiveengineering:ingot_lead"
+				id: "alltheores:lead_ingot"
 			}
 		}
 		{
@@ -39,7 +39,7 @@
 			id: "5E9DE99160D1B6FB"
 			item: {
 				count: 1
-				id: "immersiveengineering:ingot_electrum"
+				id: "alltheores:electrum_ingot"
 			}
 		}
 		{ id: "22E6C6009C1B1605", item: { count: 1, id: "immersiveengineering:rs_engineering" } }
@@ -60,7 +60,7 @@
 			id: "500AF1D7DF699027"
 			item: {
 				count: 1
-				id: "immersiveengineering:ingot_lead"
+				id: "alltheores:lead_ingot"
 			}
 		}
 		{
@@ -68,7 +68,7 @@
 			id: "0EFC28ED7D489C2A"
 			item: {
 				count: 1
-				id: "immersiveengineering:ingot_steel"
+				id: "alltheores:steel_ingot"
 			}
 		}
 		{ id: "713E266F6449522E", item: { count: 1, id: "immersiveengineering:mold_gear" } }

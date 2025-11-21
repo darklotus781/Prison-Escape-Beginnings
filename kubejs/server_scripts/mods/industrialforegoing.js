@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'industrialforegoing:machine_frame_pity' });
-    event.remove({ output: 'industrialforegoing:fluid_laser_base' });
-    event.remove({ output: 'industrialforegoing:ore_laser_base' });
+    event.remove({output: 'industrialforegoing:machine_frame_pity'});
+    event.remove({output: 'industrialforegoing:fluid_laser_base'});
+    event.remove({output: 'industrialforegoing:ore_laser_base'});
 
     // Pity Machine Frame
     event.shaped('industrialforegoing:machine_frame_pity', [
@@ -69,30 +69,29 @@ ServerEvents.recipes(event => {
      * @param {number} depthMax
      * @param {number} weight
      */
-        event.custom({
-                type: 'industrialforegoing:laser_drill_ore',
-                output: {
-                    tag: "c:gems/bort",
-                    count: 1
+    event.custom({
+        type: 'industrialforegoing:laser_drill_ore',
+        output: {
+            tag: "c:gems/bort",
+            count: 1
+        },
+        rarity: [
+            {
+                biome_filter: {
+                    whitelist: [],
+                    blacklist: [],
                 },
-                rarity: [
-                    {
-                        biome_filter: {
-                            whitelist:  [],
-                            blacklist:  [],
-                        },
-                        dimension_filter: {
-                            whitelist:  ["minecraft:overworld"],
-                            blacklist:  [],
-                        },
-                        depth_min:  0,
-                        depth_max:  256,
-                        weight:     5
-                    }
-                ],
-                catalyst: {
-                    item: "industrialforegoing:cyan_laser_lens"
-                }
-            })
-            .id(`kubejs:industrialforegoing/laser_drill_ore/${output.tag.split(':')[1]}`);
+                dimension_filter: {
+                    whitelist: ["minecraft:overworld"],
+                    blacklist: [],
+                },
+                depth_min: 0,
+                depth_max: 256,
+                weight: 5
+            }
+        ],
+        catalyst: {
+            item: "industrialforegoing:cyan_laser_lens"
+        }
+    }).id('kubejs:industrialforegoing/laser_drill_ore/bort');
 });

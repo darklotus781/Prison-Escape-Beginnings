@@ -124,7 +124,7 @@
 		}
 		{
 			height: 2.0d
-			image: "ftbchunks:textures/faces/minecraft/ender_dragon.png"
+			image: "ftblibrary:textures/faces/minecraft/ender_dragon.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -9.0d

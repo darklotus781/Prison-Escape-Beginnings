@@ -12,14 +12,13 @@ ServerEvents.recipes(event => {
 
     event.shaped('securitycraft:keycard_lv1', [
         'GIG',
-        'CRC',
-        'AAA'
+        'C C',
+        'SSS'
     ], {
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:diorite',
         C: 'minecraft:chain',
         G: 'minecraft:granite',
-        A: 'minecraft:andesite',
-        R: 'minecraft:redstone'
+        S: 'minecraft:skeleton_skull'
     });
 
     event.shaped('securitycraft:keycard_lv2', [

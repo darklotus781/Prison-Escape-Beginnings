@@ -1,3 +1,55 @@
+# [1.1.0] (DarkLotus)
+This update doesn't affect existing players as much as new players.  
+If you just started the pack and you haven't progressed much, I'd recommend a reset.  
+Existing players, the biggest change that you won't benefit from is the removal of the "mining" area.  
+The quest has been updated, you now go to a new dimension to mine, but it's dangerous and has better ores.
+
+- Added crash detection with log upload and submission to Discord
+- Added Dimension Expansion (Mining Dimension / Deep Beneath)
+    - Check exploration quests for details, also Ores have Tooltips telling if they spawn in either dimension.
+- Unified all the ores and ingots to the AllTheOres mod for consistency.
+  - Preserved compacting drawer contents to avoid material loss on upgrade
+  - New drawers can be filled with AllTheOres ingots and all Immersive Engineering and Mekanism ingots and blocks can be converted to All The Ores.
+- Added Nether and End Portal Items, great for skyblock and progression gating.
+- Added a support mod to restructure some of the initial prison stuff
+- Removed the gray carpet to string recipe
+- Removed the Wooden Plate to Planks Recipe
+- Removed the Quest Book drops from Bookshelf
+- Remodeled the Prison Structure and removed the mining box in favor of the Deep Beneath from Dimension Expansion
+- Updated Quests to be Team Rewards by default and fixed some missing graphics
+- Updated some quests based on above changes!
+- Ultimate Ingot Recipe Updated
+- Fixed IFEU Fluid Laser Recipes for Dragon's Breath and Sculk Matter (malformed recipes from mod)
+- Fixed the AvaritiaNeo World Breaker (it breaks the world) via Prison Escape - Utilities
+
+### Mods:
+- Added Mods:
+  - Better Compatibility Checker
+  - Crash Assistant
+  - Crash Utilities
+  - Dimension Expansion
+  - Portal Frame Item
+  - Prison Escape - Utilities
+  - Simple Burnout Torch
+- Updated Mods:
+  - AdvancedAE
+  - Cable Tiers
+  - Cobweb
+  - Easy NPC
+  - Easy Villagers
+  - ExtendedAE
+  - FTB Library (Forge)
+  - FTB Pack Companion
+  - FTB Ultimine (Forge)
+  - Inventory Sorter
+  - Just Enough Items (JEI)
+  - McJtyLib
+  - ModernFix
+  - Oracle Index
+  - Replication
+  - RFTools Base
+  - Tyz's Skills
+
 # [1.0.3] (DarkLotus)
 - Rolled back EnderIO to 7.1.8
 - Rolled back KubeJS EnderIO to 0.7.2

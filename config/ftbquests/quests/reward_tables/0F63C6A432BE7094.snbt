@@ -72,7 +72,7 @@
 			id: "518FD450B09D8F30"
 			item: {
 				count: 1
-				id: "mekanism:ingot_bronze"
+				id: "alltheores:bronze_ingot"
 			}
 			weight: 0.5f
 		}
@@ -98,7 +98,7 @@
 			id: "34914011D4450EC9"
 			item: {
 				count: 1
-				id: "mekanism:ingot_steel"
+				id: "alltheores:steel_ingot"
 			}
 		}
 		{
@@ -208,7 +208,7 @@
 			id: "5A95C83AD4DAAFBA"
 			item: {
 				count: 1
-				id: "immersiveengineering:ingot_lead"
+				id: "alltheores:lead_ingot"
 			}
 		}
 		{

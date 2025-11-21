@@ -1,0 +1,4 @@
+#Should normal Nether portal ignition be disabled?
+disableNormalPortalIgnition = true
+#Message to show when portal fails to ignite.  Create a new line with §n
+failedIgnitionMessage = "The Portal doesn't seem to want to light...§nYou need the §5Nether Portal Frame§r item to spawn a functional Portal!"

@@ -24,7 +24,7 @@
 	#  "jungle_island=5,1,-3,180" // Look south
 	#]
 	#
-	island_specific_offsets = ["classic_island=1,1,-3,-90", "prison=18,28,-47,0"]
+	island_specific_offsets = ["classic_island=1,1,-3,-90", "prison=17,-35,-25,90"]
 
 #Island Distance
 [island_distance]

@@ -749,7 +749,7 @@
 			tasks: [{
 				count: 64L
 				id: "40BF4BF358F30E4F"
-				item: { count: 1, id: "mekanism:ingot_osmium" }
+				item: { count: 1, id: "alltheores:osmium_ingot" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -942,7 +942,7 @@
 			tasks: [{
 				count: 64L
 				id: "3DB33FD52FA36A70"
-				item: { count: 1, id: "mekanism:ingot_uranium" }
+				item: { count: 1, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1175,7 +1175,7 @@
 			tasks: [{
 				count: 64L
 				id: "4E4E76CB833DB121"
-				item: { count: 1, id: "immersiveengineering:ingot_uranium" }
+				item: { count: 1, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
 			x: 0.0d

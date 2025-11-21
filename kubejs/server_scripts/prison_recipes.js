@@ -31,17 +31,17 @@ ServerEvents.recipes(event => {
         'BFB',
         'ISI'
     ], {
-        I: 'minecraft:iron_ingot',
+        I: '#c:ingots/iron',
         E: 'justdirethings:ferricore_ingot',
-        B: 'minecraft:iron_block',
+        B: '#c:storage_blocks/iron',
         F: 'minecraft:furnace',
         S: 'ftbstuff:cast_iron_gear'
     }).id('kubejs:custom_blast_furnace');
 
-    event.shapeless(
-        Item.of('minecraft:oak_planks', 2),
-        ['handcrafted:wood_plate']
-    ).id('kubejs:wood_plate_to_oak_planks');
+    // event.shapeless(
+    //     Item.of('minecraft:oak_planks', 2),
+    //     ['handcrafted:wood_plate']
+    // ).id('kubejs:wood_plate_to_oak_planks');
 
     event.shaped('minecraft:campfire', [
         ' A ',
@@ -53,10 +53,10 @@ ServerEvents.recipes(event => {
         O: 'minecraft:oak_log'
     }).id('kubejs:campfire');
 
-    event.shapeless(
-        Item.of('minecraft:string', 4),
-        ['minecraft:gray_carpet']
-    ).id('kubejs:carpet_to_string');
+    // event.shapeless(
+    //     Item.of('minecraft:string', 4),
+    //     ['minecraft:gray_carpet']
+    // ).id('kubejs:carpet_to_string');
 
     // 3 gravel to make flint
     event.shapeless('minecraft:flint', [
@@ -66,19 +66,19 @@ ServerEvents.recipes(event => {
     ]);
 
     // End Portal Frame Pieces
-    event.shaped(
-        Item.of('minecraft:end_portal_frame', 3),
-        [
-            'AAA',
-            'ABA',
-            'CCC'
-        ],
-        {
-            A: 'minecraft:ender_eye',
-            B: 'minecraft:end_crystal',
-            C: 'minecraft:end_stone'
-        }
-    ).id('kubejs:end_portal_frame');
+    // event.shaped(
+    //     Item.of('minecraft:end_portal_frame', 3),
+    //     [
+    //         'AAA',
+    //         'ABA',
+    //         'CCC'
+    //     ],
+    //     {
+    //         A: 'minecraft:ender_eye',
+    //         B: 'minecraft:end_crystal',
+    //         C: 'minecraft:end_stone'
+    //     }
+    // ).id('kubejs:end_portal_frame');
 
     // Spider Web
     event.shaped('minecraft:cobweb', [
@@ -95,23 +95,20 @@ ServerEvents.recipes(event => {
         'minecraft:flint'
     ]);
 
-    event.smelting('mekanism:ingot_lead', 'immersiveengineering:dust_lead')
+    event.smelting('alltheores:lead_ingot', '#c:dusts/lead')
         .id('kubejs:smelt_dust_lead');
 
-    event.smelting('mekanism:ingot_lead', 'mekanism:clump_lead')
+    event.smelting('alltheores:lead_ingot', '#c:clumps/lead')
         .id('kubejs:smelt_clump_lead_mek');
 
-    event.smelting('mekanism:ingot_lead', 'alltheores:lead_clump')
-        .id('kubejs:smelt_clump_lead_alltheores');
-
-    event.shaped('minecraft:reinforced_deepslate', [
+    event.shaped(Item.of('minecraft:reinforced_deepslate'), [
         'OOO',
         'ADA',
         'DDD'
     ], {
-        O: 'mekanism:ingot_osmium',
-        A: 'minecraft:obsidian',
-        D: 'exdeorum:compressed_deepslate'
+        O: Ingredient.of('#c:ingots/osmium'),
+        A: Item.of('minecraft:obsidian'),
+        D: Item.of('exdeorum:compressed_deepslate')
     }).id('kubejs:reinforced_deepslate');
 
     // Add a new shapeless recipe: 8x wood chippings + water bucket = 3x paper
@@ -124,6 +121,4 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:bone', 3), // Output
         ['minecraft:skeleton_skull'] // Input
     );
-
-    event.smelting('mekanism:ingot_steel', 'mekanism:dust_steel').id('kubejs:smelt_dust_steel');
 });

@@ -26,4 +26,11 @@ ServerEvents.recipes(event => {
     compactify(Item.of('mekanism:ingot_tin'), Item.of('alltheores:tin_nugget', 9));
     compactify(Item.of('mekanism:ingot_bronze'), Item.of('alltheores:bronze_nugget', 9));
     compactify(Item.of('minecraft:copper_ingot'), Item.of('alltheores:copper_nugget', 9));
+
+
+    // const ieMaterials = ['electrum', 'aluminum', 'lead', 'silver', 'nickel', 'uranium', 'constantan', 'steel', 'osmium', 'platinum', 'tin', 'zinc']
+    // ieMaterials.forEach(material => {
+    //     compactify(Item.of(`immersiveengineering:storage_${material}`), Item.of(`immersiveengineering:ingot_${material}`, 9));
+    //     compactify(Item.of(`immersiveengineering:ingot_${material}`), Item.of(`immersiveengineering:nugget_${material}`, 9));
+    // })
 });

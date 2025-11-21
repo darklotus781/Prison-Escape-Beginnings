@@ -7,6 +7,22 @@
 	# Default: 30
 	# Range: 1 ~ 100
 	"Refund percentage" = 30
+	#Level required to unlock abilities category
+	# Default: 1
+	# Range: 1 ~ 100000
+	"Abilities level" = 1
+	#Level required to unlock fight category
+	# Default: 5
+	# Range: 1 ~ 100000
+	"Fight level" = 5
+	#Level required to unlock misc category
+	# Default: 15
+	# Range: 1 ~ 100000
+	"Misc level" = 15
+	#Level required to unlock special category
+	# Default: 25
+	# Range: 1 ~ 100000
+	"Special level" = 25
 
 ["XP requirement"]
 	#XP needed to complete level 1
@@ -170,50 +186,6 @@
 	# Range: 1 ~ 100000
 	"Lvl MAX XP" = 16000
 
-["Skills prices"]
-	#Prices for max health skill
-	"Max health skill price" = [2, 2, 3, 3, 5, 5, 7, 7, 9, 9]
-	#Prices for reach skill
-	"Reach skill price" = [3, 5, 9, 13]
-	#Prices for resistance skill
-	"resistance skill prices" = [3, 5, 7, 9, 13]
-	#Prices for attack damage skill
-	"Attack damage skill prices" = [9, 14]
-	#Prices for speed skill
-	"Speed skill prices" = [2, 4, 6, 8, 11]
-	#Prices for step height skill
-	"Step height skill prices" = [3, 5]
-	#Prices for swim speed skill
-	"Swim speed skill prices" = [2, 4, 6, 8, 11]
-	#Prices for bloodlust skill
-	"Bloodlust skill prices" = [4, 7]
-	#Prices for deal damage skill
-	"Deal damage skill prices" = [3, 5, 7, 9, 13]
-	#Prices for critical hit skill
-	"Critical hit skill prices" = [4, 7, 9, 10, 15]
-	#Prices for venomous attack skill
-	"Venomous attack skill prices" = [3, 5, 7, 9, 13]
-	#Prices for skill xp boost skill
-	"Skill xp boost skill prices" = [5, 8, 12, 16]
-	#Prices for harvester skill
-	"Harvester skill prices" = [9, 14]
-	#Prices for nutrition boost skill
-	"Nutrition boost skill prices" = [2, 4, 6, 8, 11]
-	#Prices for xp boost skill
-	"Xp boost skill prices" = [3, 5, 7, 9]
-	#Price for second life skill
-	"Second life skill price" = [20]
-	#Price for villager bait skill
-	"Villager bait skill price" = [12]
-	#Price for night vision skill
-	"Night vision skill price" = [18]
-	#Price for fire resistance skill
-	"Fire resistance skill price" = [18]
-	#DISABLED WITH NEOFORGE
-	"Firendly piglins skill price" = [12]
-	#Price for edible rotten flesh skill
-	"Edible rotten flesh skill price" = [12]
-
 [Badges]
 	#=== BE CAREFUL WHEN MODIFYING THESE VALUES TO MAINTAIN CONSISTENCY WITH XP GAINS ===
 	#Nature destroyer xp goals
@@ -235,7 +207,129 @@
 	"Fushing gains" = [5.0]
 	#XP gains when you turn dirt into farmlands
 	"Harvesting gains" = [2.0]
-	#XP gains when you block damage with a shield
-	"Blocking damamges gains" = [2.0]
 	#XP gains after sleeping
 	"Sleeping gains" = [2.0]
+
+[Skills]
+	#Play with max health skill
+	"Use max health skill" = true
+	#Prices for max health skill
+	"Max health skill price" = [2, 2, 3, 3, 5, 5, 7, 7, 9, 9]
+	#Extra hearts by level (default player health = 20)
+	"Max health values" = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	#Play with reach skill
+	"Use reach skill" = true
+	#Prices for reach skill
+	"Reach skill price" = [3, 5, 9, 13]
+	#Extra distance for block interaction per level (default reach = 4.5 blocks)
+	"Reach values" = [1, 2, 3, 4]
+	#Play with resistance skill
+	"Use resistance skill" = true
+	#Prices for resistance skill
+	"resistance skill prices" = [3, 5, 7, 9, 13]
+	#Resistance precentage
+	"Resistance values" = [10, 20, 30, 40, 50]
+	#Play with attack damage skill
+	"Use attack damage skill" = true
+	#Prices for attack damage skill
+	"Attack damage skill prices" = [9, 14]
+	#Extra damage by level (default player damage = 1)
+	"Attack damage values" = [1, 3]
+	#Play with speed skill
+	"Use speed skill" = true
+	#Prices for speed skill
+	"Speed skill prices" = [2, 4, 6, 8, 11]
+	#Extra speed percentage
+	"Speed percentage" = [20, 40, 60, 80, 100]
+	#Play with step height skill
+	"Use step height skill" = true
+	#Prices for step height skill
+	"Step height skill prices" = [3, 5]
+	#Extra step height by level (default step = 1 & 1 step = 0.5 blocks)
+	"Step values" = [1, 2]
+	#Play with swim speed skill
+	"Use swim speed skill" = true
+	#Prices for swim speed skill
+	"Swim speed skill prices" = [2, 4, 6, 8, 11]
+	#Extra swim speed pecentage
+	"Swim speed values" = [20, 40, 60, 80, 100]
+	#Play with oxygene boost skill
+	"Use swim oxygene boost" = true
+	#Prices for oxygene boost skill
+	"Oxygene boost skill prices" = [3, 5, 7, 9]
+	#Extra respiration pecentage
+	"Oxygene boost values" = [25, 50, 75, 100]
+	#Play with sneaking speed skill
+	"Use sneaking speed skill" = true
+	#Prices for sneaking speed skill
+	"Sneaking speed skill prices" = [1, 2, 3, 4, 5]
+	#Extra sneaking speed percentage
+	"Sneaking speed percentage" = [20, 40, 60, 80, 100]
+	#Play with bloodlust skill
+	"Use bloodlust skill" = true
+	#Prices for bloodlust skill
+	"Bloodlust skill prices" = [4, 7]
+	#Half-hearts recovered
+	"Bloodlust values" = [1, 2]
+	#Play with damage deal skill
+	"Use damage deal skill" = true
+	#Prices for deal damage skill
+	"Deal damage skill prices" = [3, 5, 7, 9, 13]
+	#Play with critical hit skill
+	"Use critical hit skill" = true
+	#Prices for critical hit skill
+	"Critical hit skill prices" = [4, 7, 9, 10, 15]
+	#Play with venomous attack skill
+	"Use venomous attack skill" = true
+	#Prices for venomous attack skill
+	"Venomous attack skill prices" = [3, 5, 7, 9, 13]
+	#Play with skill xp boost skill
+	"Use skill xp boost skill" = true
+	#Prices for skill xp boost skill
+	"Skill xp boost skill prices" = [5, 8, 12, 16]
+	#Play with harvester skill
+	"Use harvester skill" = true
+	#Prices for harvester skill
+	"Harvester skill prices" = [9, 14]
+	#Play with nutrition boost skill
+	"Use nutrition boost skill" = true
+	#Prices for nutrition boost skill
+	"Nutrition boost skill prices" = [2, 4, 6, 8, 11]
+	#Extra half-hunger point by food item
+	"Nutrition boost values" = [1, 2, 3, 4, 5]
+	#Play with xp boost skill
+	"Use xp boost skill" = true
+	#Prices for xp boost skill
+	"Xp boost skill prices" = [3, 5, 7, 9]
+	#Play with mining speed skill
+	"Use mining speed skill" = true
+	#Prices for mining speed skill
+	"Mining speed skill prices" = [2, 4, 6, 8, 11]
+	#mining speed multiplier (default is 0)
+	"Mining speed values" = [1, 2, 3, 4, 5]
+	#Play with second life skill
+	"Use second life skill" = true
+	#Price for second life skill
+	"Second life skill price" = [20]
+	#Play with villager bait skill
+	"Use villager bait skill" = true
+	#Price for villager bait skill
+	"Villager bait skill price" = [12]
+	#Play with night vision skill
+	"Use night vision skill" = true
+	#Price for night vision skill
+	"Night vision skill price" = [18]
+	#Play with fire resistance skill
+	"Use fire resistance skill" = true
+	#Price for fire resistance skill
+	"Fire resistance skill price" = [18]
+	#Play with edible rotten flesh skill
+	"Use edible rotten flesh skill" = true
+	#Price for edible rotten flesh skill
+	"Edible rotten flesh skill price" = [12]
+	#Play with adrenaline skill
+	"Use adrenaline skill" = true
+	#Price for adrenaline skill
+	"Adrenaline skill price" = [12]
+	#percentage of life required for activation
+	"Adrenaline value" = [20]

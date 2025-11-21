@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         {
             I: 'minecraft:iron_block',
             S: 'ftbstuff:stone_cobblestone_generator',
-            C: 'immersiveengineering:ingot_steel'
+            C: '#c:ingots/steel'
         }
     ).id('kubejs:iron_cobblestone_generator');
 
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
         {
             G: 'minecraft:gold_block',
             I: 'ftbstuff:iron_cobblestone_generator',
-            C: 'immersiveengineering:ingot_constantan'
+            C: '#c:ingots/constantan'
         }
     ).id('kubejs:gold_cobblestone_generator');
 
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
         {
             D: 'minecraft:diamond_block',
             G: 'ftbstuff:gold_cobblestone_generator',
-            C: 'mekanism:block_bronze'
+            C: '#c:storage_blocks/bronze'
         }
     ).id('kubejs:diamond_cobblestone_generator');
 
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
         {
             N: 'minecraft:netherite_ingot',
             D: 'ftbstuff:diamond_cobblestone_generator',
-            C: 'immersiveengineering:ingot_electrum'
+            C: '#c:ingots/electrum'
         }
     ).id('kubejs:netherite_cobblestone_generator');
 

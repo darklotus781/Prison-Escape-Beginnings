@@ -516,6 +516,11 @@
 				item: { count: 1, id: "darkdoppelganger:summons_necklace" }
 				type: "item"
 			}
+			{
+				id: "6639DF11A3576E48"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}
 		]
 		x: 0.0d
 		y: -0.5d

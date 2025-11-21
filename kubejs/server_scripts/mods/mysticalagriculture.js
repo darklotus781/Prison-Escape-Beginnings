@@ -89,9 +89,9 @@ ServerEvents.recipes(event => {
         'GWG',
         'SPS'
     ], {
-        S: 'mysticalagriculture:supremium_essence',
-        P: 'mysticalagriculture:prosperity_shard',
-        W: 'aoa3:warlock_gem',
+        S: 'mysticalagriculture:supremium_gemstone',
+        P: 'mysticalagriculture:infusion_crystal',
+        W: 'mysticalagriculture:ruby_essence',
         G: 'mysticalagriculture:supremium_ingot'
     });
 

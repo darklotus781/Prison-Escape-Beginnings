@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'exdeorum:crushed_blackstone'});
     event.remove({output: 'exdeorum:compressed_crushed_blackstone'});
     event.remove({output: 'exdeorum:oak_compressed_sieve'});
+    event.remove({output: 'exdeorum:end_cake'});
 
     // Remove sieve recipe for crushed blackstone
     event.remove({

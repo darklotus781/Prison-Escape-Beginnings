@@ -2126,27 +2126,15 @@
 				"34934BAA9CDE43C5"
 			]
 			id: "79BBDAC53AF0C951"
-			rewards: [
-				{
-					id: "2A511F45A708B6EB"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 6
-					id: "50990585808BF618"
-					item: {
-						count: 1
-						id: "minecraft:obsidian"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A511F45A708B6EB"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
-				count: 10L
-				id: "0A0B889505C21899"
-				item: { count: 1, id: "minecraft:obsidian" }
+				id: "4A3782ED44105459"
+				item: { count: 1, id: "netherportalitem:nether_portal_item" }
 				type: "item"
 			}]
 			x: 7.5d

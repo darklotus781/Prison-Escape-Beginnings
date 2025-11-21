@@ -1,8 +1,8 @@
 {
   "mod_priorities": [
     "minecraft",
+    "alltheores",
     "kubejs",
-    "crafttweaker",
     "immersiveengineering",
     "mekanism"
   ],

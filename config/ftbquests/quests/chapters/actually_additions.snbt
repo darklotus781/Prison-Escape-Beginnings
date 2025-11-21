@@ -2259,7 +2259,7 @@
 			tasks: [{
 				count: 6L
 				id: "31EF79E4A224A56E"
-				item: { count: 1, id: "mekanism:ingot_steel" }
+				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -7.0d

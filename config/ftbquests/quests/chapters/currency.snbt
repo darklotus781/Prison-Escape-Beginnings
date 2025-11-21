@@ -1962,7 +1962,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "mekanism:ingot_steel"
+				id: "alltheores:steel_ingot"
 			}
 			id: "46CBFA50ADE75A25"
 			rewards: [{
@@ -1970,7 +1970,7 @@
 				id: "2F1375E0D8B23659"
 				item: {
 					count: 1
-					id: "mekanism:ingot_steel"
+					id: "alltheores:steel_ingot"
 				}
 				type: "item"
 			}]

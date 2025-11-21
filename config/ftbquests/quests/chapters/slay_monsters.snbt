@@ -810,7 +810,7 @@
 			dependencies: ["7003B08543FC28A8"]
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/ghost.png"
+					"ftbquests:icon": "ftblibrary:textures/faces/iceandfire/ghost.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -840,7 +840,8 @@
 				entity: "aoa3:ghost"
 				icon: {
 					components: {
-						"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/ghost.png"
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "aoa3:ghost"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -1101,7 +1102,7 @@
 		{
 			dependencies: ["4ADFC4AA43E1E0DD"]
 			icon: {
-				id: "exdeorum:end_cake"
+				id: "netherportalitem:end_portal_item"
 			}
 			id: "72D4008C9D0CACEA"
 			rewards: [{
@@ -1121,8 +1122,8 @@
 					type: "dimension"
 				}
 				{
-					id: "592D6B907E626FF4"
-					item: { count: 1, id: "exdeorum:end_cake" }
+					id: "40D4B50D2D4F189D"
+					item: { count: 1, id: "netherportalitem:end_portal_item" }
 					type: "item"
 				}
 			]

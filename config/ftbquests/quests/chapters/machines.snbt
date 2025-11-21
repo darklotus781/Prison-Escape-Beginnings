@@ -876,7 +876,7 @@
 					id: "6099870B73A06B96"
 					item: {
 						count: 1
-						id: "mekanism:ingot_osmium"
+						id: "alltheores:osmium_ingot"
 					}
 					type: "item"
 				}
@@ -1768,7 +1768,7 @@
 			tasks: [{
 				count: 10L
 				id: "1FFE386381A75778"
-				item: { count: 1, id: "mekanism:ingot_osmium" }
+				item: { count: 1, id: "alltheores:osmium_ingot" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1869,7 +1869,7 @@
 					id: "5609291DC935EC2F"
 					item: {
 						count: 1
-						id: "mekanism:ingot_osmium"
+						id: "alltheores:osmium_ingot"
 					}
 					type: "item"
 				}

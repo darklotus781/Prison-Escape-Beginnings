@@ -322,7 +322,7 @@
 			shape: "hexagon"
 			tasks: [{
 				icon: {
-					id: "mysticalagriculture:fire_seeds"
+					id: "mysticalagriculture:inferium_seeds"
 				}
 				id: "16E364F01286BDB3"
 				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
@@ -351,7 +351,7 @@
 			shape: "hexagon"
 			tasks: [{
 				icon: {
-					id: "mysticalagriculture:dirt_seeds"
+					id: "mysticalagriculture:prosperity_seed_base"
 				}
 				id: "2499252075BAB96E"
 				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
@@ -573,7 +573,7 @@
 			shape: "hexagon"
 			tasks: [{
 				icon: {
-					id: "mysticalagriculture:gold_seeds"
+					id: "mysticalagriculture:electrum_seeds"
 				}
 				id: "4507BF42E5A8FD9D"
 				item: { count: 1, id: "mysticalagriculture:electrum_seeds" }

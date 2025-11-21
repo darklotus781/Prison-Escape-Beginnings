@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "cdc",
+    "e e"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:piston"
+    },
+    "d": {
+      "item": "moneyforeveryone:coin_diamond"
+    },
+    "e": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "id": "moneyforeveryone:circuit_board",
+    "count": 1
+  }
+}

@@ -1031,7 +1031,7 @@
 				}
 				{
 					id: "469034930700CFA2"
-					item: { count: 1, id: "mekanism:ingot_steel" }
+					item: { count: 1, id: "alltheores:steel_ingot" }
 					match_components: "fuzzy"
 					type: "item"
 				}
@@ -1076,7 +1076,7 @@
 					id: "0A05701CF8986EDE"
 					item: {
 						count: 1
-						id: "mekanism:ingot_osmium"
+						id: "alltheores:osmium_ingot"
 					}
 					type: "item"
 				}

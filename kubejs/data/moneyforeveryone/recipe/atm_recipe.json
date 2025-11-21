@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "moneyforeveryone:circuit_board"
+    }
+  },
+  "result": {
+    "id": "moneyforeveryone:atm",
+    "count": 1
+  }
+}
