@@ -22,6 +22,10 @@ The quest has been updated, you now go to a new dimension to mine, but it's dang
 - Fixed IFEU Fluid Laser Recipes for Dragon's Breath and Sculk Matter (malformed recipes from mod)
 - Fixed the AvaritiaNeo World Breaker (it breaks the world) via Prison Escape - Utilities
 
+- Upgraded to **Neoforge 21.1.216**
+- Holding EnderIO at 7.1.8
+- Holding back Relics at 0.10.7.6
+
 ### Mods:
 - Added Mods:
   - Better Compatibility Checker
@@ -31,24 +35,77 @@ The quest has been updated, you now go to a new dimension to mine, but it's dang
   - Portal Frame Item
   - Prison Escape - Utilities
   - Simple Burnout Torch
+- Disabled Mods:
+  - KubeJS EnderIO
+  - Modular Machinery Reborn (will enable later when fixed to work with modern KubeJS)
 - Updated Mods:
+  - Actually Additions 
   - AdvancedAE
+  - Amendments
+  - Applied Energistics 2 Wireless Terminals
+  - AvaritiaNeo
+  - Balm
+  - BucketLib
   - Cable Tiers
   - Cobweb
+  - Common Capabilities
+  - Configured
+  - Crafting Station: J/EMI Edition Updated
+  - CreativeCore
+  - Cyclops Core
+  - Deimos Lib
   - Easy NPC
   - Easy Villagers
+  - Euphoria Patches
+  - Ex Deorum
   - ExtendedAE
+  - FancyMenu
+  - Farming for Blockheads
+  - FTB Essentials (Forge & Fabric)
   - FTB Library (Forge)
   - FTB Pack Companion
+  - FTB Quests (NeoForge)
+  - FTB Stuff & Things
+  - FTB Teams (NeoForge)
   - FTB Ultimine (Forge)
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Terminals
+  - Integrated Tunnels
+  - Inventory Essentials
   - Inventory Sorter
+  - Iron's Spells 'n Spellbooks
+  - Just Enough Effect Descriptions (JEED)
   - Just Enough Items (JEI)
+  - JustHammers
+  - Kiwi 🥝 (Neo/Forge)
+  - KubeJS
+  - KubeJS Actually Additions
+  - KubeJS EnderIO
+  - Lithium (Fabric/NeoForge)
+  - LootJS: KubeJS Addon
+  - Lootr (Forge & NeoForge)
   - McJtyLib
+  - MES - Moog's End Structures
+  - MmmMmmMmmMmm (Target Dummy)
   - ModernFix
+  - Moonlight Lib
   - Oracle Index
+  - Packet Fixer
+  - Powah! (Rearchitected)
+  - Project Expansion
+  - Rechiseled: Chipped
   - Replication
   - RFTools Base
+  - Rhino
+  - Silent Gear
+  - Sophisticated Storage
+  - Super Factory Manager ( SFM )
+  - Torchmaster
   - Tyz's Skills
+  - Utilitarian
+  - Waystones
 
 # [1.0.3] (DarkLotus)
 - Rolled back EnderIO to 7.1.8

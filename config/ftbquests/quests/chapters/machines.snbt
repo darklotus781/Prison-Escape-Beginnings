@@ -4,7 +4,7 @@
 	filename: "machines"
 	group: "196EEE440C2D3EA5"
 	icon: {
-		id: "modular_machinery_reborn:casing_plain"
+		id: "enderio:sentient_ender"
 	}
 	id: "68E2A329B27B9E31"
 	images: [

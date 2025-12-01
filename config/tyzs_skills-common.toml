@@ -186,17 +186,6 @@
 	# Range: 1 ~ 100000
 	"Lvl MAX XP" = 16000
 
-[Badges]
-	#=== BE CAREFUL WHEN MODIFYING THESE VALUES TO MAINTAIN CONSISTENCY WITH XP GAINS ===
-	#Nature destroyer xp goals
-	"Nature destroyer xp goals" = [2500, 10000, 18000, 35000]
-	#Meat collector xp goals
-	"Meat collector xp goals" = [850, 3500, 9000, 17000]
-	#Certified Gobbler xp goals
-	"Certified Gobbler xp goals" = [200, 850, 1750, 4500]
-	#Tinkerer's way xp goals
-	"Tinkerer' way xp goals" = [1500, 4000, 8500, 17500]
-
 ["XP earnings"]
 	#=== BE CAREFUL WHEN MODIFYING THESE VALUES TO MAINTAIN CONSISTENCY WITH THE BADGE GOALS ===
 	#XP gains when you eat food
