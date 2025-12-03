@@ -1,0 +1,78 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#dimension_expansion:deep_beneath_biomes",
+  "spawners": [
+    {
+      "type": "monsterplus:abyssologer",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "monsterplus:ancient_hero",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "monsterplus:crystal_zombie",
+      "weight": 80,
+      "minCount": 2,
+      "maxCount": 5
+    },
+    {
+      "type": "monsterplus:demon_eye",
+      "weight": 50,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "monsterplus:desert_acolyte",
+      "weight": 25,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "monsterplus:desert_sorceress",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "monsterplus:ender_eye",
+      "weight": 5,
+      "maxCount": 1,
+      "minCount": 1
+    },
+    {
+      "type": "monsterplus:glow_skeleton",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 5
+    },
+    {
+      "type": "monsterplus:overgrown_skeleton",
+      "weight": 200,
+      "minCount": 2,
+      "maxCount": 7
+    },
+    {
+      "type": "monsterplus:spectral_skull",
+      "weight": 60,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "monsterplus:swamp_zombie",
+      "weight": 200,
+      "minCount": 2,
+      "maxCount": 5
+    },
+    {
+      "type": "monsterplus:wisp",
+      "weight": 100,
+      "minCount": 5,
+      "maxCount": 25
+    }
+  ]
+}

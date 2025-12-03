@@ -1,3 +1,19 @@
+# [1.1.2] (DarkLotus)
+- Added Monsters Plus mobs to The Deep Beneath, only ones that are typically found in the overworld.
+- Updated Crash Assistant config to go to the new Discord
+## Mods:
+- Updated Mods:
+  - Aquaculture 2
+  - BaguetteLib
+  - CreativeCore
+  - Easy Mob Farm
+  - Easy NPC
+  - Lootr (Forge & NeoForge)
+  - McJtyLib
+
+# [1.1.1] (DarkLotus)
+This update added some missing files from the export, no gameplay changes
+
 # [1.1.0] (DarkLotus)
 This update doesn't affect existing players as much as new players.  
 If you just started the pack and you haven't progressed much, I'd recommend a reset.  

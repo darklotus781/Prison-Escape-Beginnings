@@ -104,10 +104,10 @@
     "modId": "appflux",
     "version": "1.21-2.1.3-neoforge"
   },
-  "Aquaculture-1.21.1-2.7.14.jar": {
-    "jarName": "Aquaculture-1.21.1-2.7.14.jar",
+  "Aquaculture-1.21.1-2.7.16.jar": {
+    "jarName": "Aquaculture-1.21.1-2.7.16.jar",
     "modId": "aquaculture",
-    "version": "2.7.14"
+    "version": "2.7.16"
   },
   "architectury-13.0.8-neoforge.jar": {
     "jarName": "architectury-13.0.8-neoforge.jar",
@@ -139,10 +139,10 @@
     "modId": "avaritia",
     "version": "1.2.7"
   },
-  "baguettelib-1.21.1-NeoForge-1.1.3.jar": {
-    "jarName": "baguettelib-1.21.1-NeoForge-1.1.3.jar",
+  "baguettelib-1.21.1-NeoForge-1.1.5.jar": {
+    "jarName": "baguettelib-1.21.1-NeoForge-1.1.5.jar",
     "modId": "baguettelib",
-    "version": "1.1.3"
+    "version": "1.1.5"
   },
   "balm-neoforge-1.21.1-21.0.55.jar": {
     "jarName": "balm-neoforge-1.21.1-21.0.55.jar",
@@ -379,10 +379,10 @@
     "modId": "crashutilities",
     "version": "9.0.4"
   },
-  "CreativeCore_NEOFORGE_v2.13.16_mc1.21.1.jar": {
-    "jarName": "CreativeCore_NEOFORGE_v2.13.16_mc1.21.1.jar",
+  "CreativeCore_NEOFORGE_v2.13.17_mc1.21.1.jar": {
+    "jarName": "CreativeCore_NEOFORGE_v2.13.17_mc1.21.1.jar",
     "modId": "creativecore",
-    "version": "2.13.16"
+    "version": "2.13.17"
   },
   "cryingportals-1.21.1-2.8.jar": {
     "jarName": "cryingportals-1.21.1-2.8.jar",
@@ -499,14 +499,14 @@
     "modId": "easy_villagers",
     "version": "1.21.1-1.1.39"
   },
-  "easy_mob_farm-neoforge-1.21.1-10.2.0.jar": {
-    "jarName": "easy_mob_farm-neoforge-1.21.1-10.2.0.jar",
+  "easy_mob_farm-neoforge-1.21.1-10.3.0.jar": {
+    "jarName": "easy_mob_farm-neoforge-1.21.1-10.3.0.jar",
     "modId": "easy_mob_farm"
   },
-  "easy_npc_bundle-6.0.21-neoforge-1.21.1.jar": {
-    "jarName": "easy_npc_bundle-6.0.21-neoforge-1.21.1.jar",
+  "easy_npc_bundle-6.1.0-neoforge-1.21.1.jar": {
+    "jarName": "easy_npc_bundle-6.1.0-neoforge-1.21.1.jar",
     "modId": "easy_npc_bundle",
-    "version": "6.0.21"
+    "version": "6.1.0"
   },
   "eatinganimation-1.21.0-6.0.1.jar": {
     "jarName": "eatinganimation-1.21.0-6.0.1.jar",
@@ -1081,20 +1081,20 @@
     "modId": "lootjs",
     "version": "1.21.1-3.6.0"
   },
-  "lootr-neoforge-1.21-1.10.35.93.jar": {
-    "jarName": "lootr-neoforge-1.21-1.10.35.93.jar",
+  "lootr-neoforge-1.21-1.10.35.95.jar": {
+    "jarName": "lootr-neoforge-1.21-1.10.35.95.jar",
     "modId": "lootr",
-    "version": "1.21-1.10.35.93"
+    "version": "1.21-1.10.35.95"
   },
   "Lychee-1.21.1-NeoForge-6.4.2.jar": {
     "jarName": "Lychee-1.21.1-NeoForge-6.4.2.jar",
     "modId": "lychee",
     "version": "6.4.2+neoforge"
   },
-  "mcjtylib-1.21-9.0.18.jar": {
-    "jarName": "mcjtylib-1.21-9.0.18.jar",
+  "mcjtylib-1.21-9.0.19.jar": {
+    "jarName": "mcjtylib-1.21-9.0.19.jar",
     "modId": "mcjtylib",
-    "version": "1.21-9.0.18"
+    "version": "1.21-9.0.19"
   },
   "megacells-4.10.1.jar": {
     "jarName": "megacells-4.10.1.jar",
@@ -1226,11 +1226,6 @@
     "modId": "netherportalitem",
     "version": "1.2.0"
   },
-  "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar": {
-    "jarName": "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar",
-    "modId": "noisium",
-    "version": "2.3.0+mc1.21-1.21.1"
-  },
   "nolijium-0.5.6.jar": {
     "jarName": "nolijium-0.5.6.jar",
     "modId": "nolijium",
@@ -1336,10 +1331,10 @@
     "modId": "prism",
     "version": "1.0.11"
   },
-  "prison_escape-neoforge-1.21.1-1.0.1.jar": {
-    "jarName": "prison_escape-neoforge-1.21.1-1.0.1.jar",
+  "prison_escape-neoforge-1.21.1-1.0.2.jar": {
+    "jarName": "prison_escape-neoforge-1.21.1-1.0.2.jar",
     "modId": "prison_escape",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   "ProjectE-1.21.1-PE1.1.0.jar": {
     "jarName": "ProjectE-1.21.1-PE1.1.0.jar",
