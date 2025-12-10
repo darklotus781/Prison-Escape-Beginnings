@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'silentgear:gear_smithing_table'});
     event.remove({output: 'silentgear:salvager'});
     event.remove({output: 'silentgear:super_mixer'});
+    event.remove({id: 'silentgear:graded_mat_test'});
 
 
     // Iron & Nether Wart makes Crimson Iron Block

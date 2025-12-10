@@ -1,3 +1,40 @@
+# [1.1.3] (DarkLotus)
+- Introduction of Server Files
+- Fixed NPC not easy to interact with (new worlds)
+- Fixed bucket recipe (removed copper)
+- Fixed portals placing Void Dimension
+## Mods:
+- Removed Mods:
+  - More Overlays Updated (don't need more than one mod that provides light overlays.)
+  - WorldEdit (shouldn't have been enabled)
+  - CreativeCore (wasn't being used)
+- Updated Mods:
+  - Better Compatibility Checker
+  - Cable Facades
+  - Crash Assistant
+  - CreativeCore
+  - Dimension Expansion
+  - ExtendedAE
+  - Extreme Reactors
+  - FTB Library (Forge)
+  - Inventory Essentials
+  - Lithostitched
+  - LootJS (downgraded to 3.5.0)
+  - Lootr (Forge & NeoForge)
+  - McJtyLib
+  - Moonlight Lib
+  - Mystical Agradditions
+  - Mystical Agriculture
+  - Prison Escape - Utilities
+  - Project Expansion
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Supplementaries
+  - Utilitarian
+  - YetAnotherConfigLib
+- Updated Resource Packs:
+  - AE2 Blackout
+
 # [1.1.2] (DarkLotus)
 - Added Monsters Plus mobs to The Deep Beneath, only ones that are typically found in the overworld.
 - Updated Crash Assistant config to go to the new Discord

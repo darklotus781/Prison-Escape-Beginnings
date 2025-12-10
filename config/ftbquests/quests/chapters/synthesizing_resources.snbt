@@ -308,7 +308,7 @@
 			shape: "square"
 			tasks: [{
 				id: "25B72BBE54553015"
-				item: { count: 1, id: "minecraft:red_bed" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:beds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
