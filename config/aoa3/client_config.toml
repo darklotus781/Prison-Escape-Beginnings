@@ -1,7 +1,5 @@
 #AoA client-side configuration options
 [general_settings]
-	#Set this to false to allow items that cannot currently be obtained in survival to be shown in the Creative Inventory
-	hideSurvivalUnobtainableItems = true
 	#Set this to false to disable the small scrolling popups that appear when you gain xp in a skill
 	showXpParticles = true
 	#Set this to false to disable the message that welcomes you to Advent of Ascension when logging in

@@ -23,6 +23,14 @@
 	#Select the method in which Nowhere boss loot should be distributed on kill.
 	#Allowed Values: ON_GROUND, LAST_PLAYER_TO_HIT, MOST_DAMAGING_PLAYER, SPLIT_BETWEEN_PLAYERS
 	bossDropsScheme = "SPLIT_BETWEEN_PLAYERS"
+	#Set the amount of bonus (in percent) of additional health that Nowhere bosses get per additional player in the fight
+	# Default: 25.0
+	# Range: 0.0 ~ 1000.0
+	multiplayerBossHealthBonus = 25.0
+	#Disables target intercept calculations for projectile weapons, increasing performance in exchange for reduced accuracy
+	fastProjectileCalculations = false
+	#Enables real death if dying in Nowhere to bosses
+	nowhereHardcoreBossDeaths = false
 
 #AoA Leaderboard configuration options
 [leaderboard_settings]
@@ -41,3 +49,14 @@
 	#The password to use along with the databaseUsername for leaderboard database connection. You shouldn't need to change this.
 	#NOTE: If setting your own password, be aware this will be stored in easily accessible plaintext. Use a throwaway password.
 	databasePassword = "Password"
+
+#Mob spawn stat variance configuration options
+[spawn_stat_variance]
+	#Set the scale of the random variance given to AoA mobs' health when spawned, as a percentage value. (0.1 = 10%)
+	# Default: 0.1
+	# Range: 0.0 ~ 1000.0
+	spawnVarianceHealthScale = 0.1
+	#Set the scale of the random variance given to AoA mobs' speed when spawned, as a percentage value. (0.1 = 10%)
+	# Default: 0.05
+	# Range: 0.0 ~ 1000.0
+	spawnVarianceSpeedScale = 0.05

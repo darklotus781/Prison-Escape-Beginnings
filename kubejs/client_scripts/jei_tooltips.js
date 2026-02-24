@@ -110,5 +110,5 @@ ItemEvents.modifyTooltips(event => {
     });
 
     event.add('deeperdarker:heart_of_the_deep', Text.darkPurple('Gained by killing wardens. A powerful relic that pulses with dark energy.'));
-    event.add('deeperdarker:heart_of_the_deep', Text.gray('Right-click to descend into the Otherside, consumes on use.'));
+    event.add('deeperdarker:heart_of_the_deep', Text.gray('Right-click on a Reinforced Deepslate Portal Frame to descend into the Otherside, consumes on use.'));
 });

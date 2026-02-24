@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
     }
     compactify(Item.of('minecraft:clay'), Item.of('minecraft:clay_ball', 4));
     compactify(Item.of('minecraft:cobblestone'), Item.of('exdeorum:stone_pebble', 4));
+    compactify(Item.of('minecraft:blackstone'), Item.of('exdeorum:blackstone_pebble', 4));
     compactify(Item.of('minecraft:diorite'), Item.of('exdeorum:diorite_pebble', 4));
     compactify(Item.of('minecraft:granite'), Item.of('exdeorum:granite_pebble', 4));
     compactify(Item.of('minecraft:andesite'), Item.of('exdeorum:andesite_pebble', 4));

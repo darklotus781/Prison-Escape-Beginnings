@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'industrialforegoing:machine_frame_pity'});
     event.remove({output: 'industrialforegoing:fluid_laser_base'});
     event.remove({output: 'industrialforegoing:ore_laser_base'});
+    event.remove({id: /industrialforegoing\:.*_gear/});
 
     // Pity Machine Frame
     event.shaped('industrialforegoing:machine_frame_pity', [
@@ -36,7 +37,7 @@ ServerEvents.recipes(event => {
         B: 'justdirethings:celestigem_pickaxe',
         C: 'minecraft:bucket',
         D: 'industrialforegoing:machine_frame_advanced',
-        E: 'industrialforegoing:diamond_gear',
+        E: '#c:gears/diamond',
         F: 'minecraft:redstone'
     }).id('kubejs:fluid_laser_base');
 

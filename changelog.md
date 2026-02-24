@@ -1,3 +1,199 @@
+# [1.1.8] (DarkLotus)
+- Upgraded Neoforge to 21.1.219
+- Upgraded Complementary Shaders - Unbound to 5.7.1
+- Holding EnderIO at 7.1.8
+- Removed Hoarder - Yellorium Quest
+## Mods:
+- Added Mods:
+  - None this time :P
+- Updated Mods:
+  - Accessories
+  - Actually Additions
+  - AdvancedAE
+  - Advent of Ascension (Nevermine)
+  - AEInfinityBooster
+  - Almanac Lib
+  - Amendments
+  - AppleSkin
+  - Applied Flux
+  - Aquaculture 2
+  - Artifacts
+  - AvaritiaNeo
+  - BaguetteLib
+  - Balm
+  - Baubley Heart Canisters
+  - Better Compatibility Checker
+  - BlockUI
+  - Bookshelf
+  - Brutal Bosses - Custom Bosses[Forge/Fabric]
+  - Cable Facades
+  - Carry On
+  - Client Crafting
+  - Client Tweaks
+  - Common Capabilities
+  - Compact Machines
+  - Crafting Station: J/EMI Edition Updated
+  - Crafting Tweaks
+  - Crash Assistant
+  - Cyclops Core
+  - Dark Doppelganger : Iron's Spells and Spellbooks Addon
+  - Dimension Expansion
+  - Easy Mob Farm
+  - Easy NPC
+  - Easy Villagers
+  - Entity Culling Fabric/Forge
+  - Euphoria Patches
+  - ExtendedAE
+  - Extreme sound muffler - (Neo)Forge
+  - Farming for Blockheads
+  - FerriteCore ((Neo)Forge)
+  - Forgified Fabric API
+  - Forgiving Void
+  - FramedBlocks
+  - FTB Chunks (NeoForge)
+  - FTB Essentials (Forge & Fabric)
+  - FTB Filter System
+  - FTB Library (Forge)
+  - FTB Pack Companion
+  - FTB Quests (NeoForge)
+  - FTB Ultimine (Forge)
+  - FTB XMod Compat
+  - Fusion (Connected Textures)
+  - Fzzy Config
+  - GeckoLib
+  - Glassential Renewed
+  - Industrial Foregoing
+  - Industrial Foregoing Souls
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Terminals
+  - Integrated Tunnels
+  - Inventory Essentials
+  - Iron's Spells 'n Spellbooks
+  - It Takes a Pillage Continuation
+  - Jade 🔍
+  - Jumbo Furnace
+  - Just Dire Things
+  - Just Enough Items (JEI)
+  - Just Enough Mekanism Multiblocks
+  - JustHammers
+  - Kiwi 🥝 (Neo/Forge)
+  - KleeSlabs
+  - Kotlin for Forge
+  - LibX
+  - Lithium (Fabric/NeoForge)
+  - Lithostitched
+  - Loot Integrations: When Dungeons Arise & Co
+  - LootJS: KubeJS Addon
+  - Lootr (Forge & NeoForge)
+  - Lychee (Neo/Forge)
+  - MEGA Cells
+  - Mekanism
+  - Mekanism Additions
+  - Mekanism Generators
+  - Mekanism Tools
+  - ModernFix
+  - Modular Routers
+  - Moonlight Lib
+  - Mystical Agradditions
+  - Mystical Agriculture
+  - Nyf's Spiders
+  - Oracle Index
+  - playerAnimator
+  - Powah! (Rearchitected)
+  - Project Expansion
+  - Rechiseled
+  - Rechiseled: Chipped
+  - Refined Storage
+  - Relics
+  - Replication
+  - RightClickHarvest
+  - Silent Gear
+  - Silent's Gems
+  - Simple Burnout Torch
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Sophisticated Storage
+  - Super Factory Manager ( SFM )
+  - SuperMartijn642's Core Lib
+  - Supplementaries
+  - Titanium
+  - Tyz's Skills
+  - Utilitarian
+  - Waystones
+  - YetAnotherConfigLib
+- Removed Mods:
+  - None this time :P
+
+# [1.1.7] (DarkLotus)
+- Fixed a typo in the last release causing game crashes.  Ooops...
+## Mods:
+- Added Mods:
+  - None this time :P
+- Updated Mods:
+  - None this time :P
+- Removed Mods:
+  - None this time :P
+
+# [1.1.6] (DarkLotus)
+- Single Player Hotfix
+
+# [1.1.5] (DarkLotus)
+- Added default-server.properties file
+
+# [1.1.4] (DarkLotus)
+- Disabled Team Rewards in FTB Quests
+- Fixed Recipe with Diamond Gears
+- Forced Default World Type to `haven_skyblock_builder:skyblock`
+## Mods:
+- Added Mods:
+  - Default Server Properties
+  - Default World Type [Forge]
+- Updated Mods:
+  - AdvancedAE
+  - Amendments
+  - Aquaculture 2
+  - Bookshelf
+  - Common Capabilities
+  - Compact Machines
+  - Connectivity
+  - Crash Assistant
+  - Cryonic Config
+  - Cyclops Core
+  - DimStorage
+  - Dimension Expansion
+  - Easy Villagers
+  - Entity Culling Fabric/Forge
+  - ExtendedAE
+  - Extreme Reactors
+  - Extreme sound muffler - (Neo)Forge
+  - FTB Pack Companion
+  - FTB Quests (NeoForge)
+  - FTB Stuff & Things
+  - FTB Teams (NeoForge)
+  - Fusion (Connected Textures)
+  - Fzzy Config
+  - Industrial Foregoing
+  - Integrated Dynamics
+  - Inventory Essentials
+  - Just Enough Effect Descriptions (JEED)
+  - Just Enough Items (JEI)
+  - Lithostitched
+  - Lootr (Forge & NeoForge)
+  - MES - Moog's End Structures
+  - Moonlight Lib
+  - Reliquary Reincarnations
+  - Replication
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - SuperMartijn642's Core Lib
+  - Supplementaries
+  - Waystones
+  - ZeroCore 2
+- Removed Mods:
+  - None this time :P
+
 # [1.1.3] (DarkLotus)
 - Introduction of Server Files
 - Fixed NPC not easy to interact with (new worlds)

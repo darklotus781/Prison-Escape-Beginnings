@@ -112,7 +112,7 @@
 			tasks: [{
 				icon: {
 					components: {
-						"ftbquests:icon": "tyzs_skills:textures/logo.png"
+						"ftbquests:icon": "tyzs_skills:textures/gui/skills/attack_damage.png"
 					}
 					id: "ftbquests:custom_icon"
 				}

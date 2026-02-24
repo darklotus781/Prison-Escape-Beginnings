@@ -3,22 +3,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'exdeorum:stone_barrel'});
     event.remove({output: 'exdeorum:crushed_blackstone'});
     event.remove({output: 'exdeorum:compressed_crushed_blackstone'});
-    event.remove({output: 'exdeorum:oak_compressed_sieve'});
     event.remove({output: 'exdeorum:end_cake'});
-
-    // Remove sieve recipe for crushed blackstone
-    event.remove({
-        type: 'exdeorum:sieve',
-        input: 'exdeorum:crushed_blackstone',
-        sieve: 'exdeorum:oak_compressed_sieve'
-    });
-
-    // Remove sieve recipe for compressed crushed blackstone
-    event.remove({
-        type: 'exdeorum:sieve',
-        input: 'exdeorum:compressed_crushed_blackstone',
-        sieve: 'exdeorum:oak_compressed_sieve'
-    });
 
     const removeCompressedSieveOutput = [
         'exdeorum:deepslate_pebble',
@@ -377,13 +362,23 @@ ServerEvents.recipes(event => {
         M: 'minecraft:moss_block'
     });
 
-    event.shaped('exdeorum:oak_compressed_sieve', [
-        'O O',
-        'OIO',
-        'S S'
-    ], {
-        O: 'minecraft:oak_wood',
-        I: 'minecraft:iron_ingot',
-        S: 'immersiveengineering:stick_treated'
-    }).id('kubejs:oak_compressed_sieve');
+    const WOOD_TYPES = [
+        'oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak',
+        'mangrove', 'cherry', 'bamboo', 'crimson', 'warped'
+    ]
+
+    WOOD_TYPES.forEach(wood => {
+        const id = `exdeorum:${wood}_compressed_sieve`
+
+        event.replaceInput(
+            { id: id },
+            '#c:rods/wooden',
+            'immersiveengineering:stick_treated'
+        )
+        event.replaceInput(
+            { id: id },
+            'minecraft:iron_ingot',
+            'ftbstuff:cast_iron_ingot'
+        )
+    })
 });

@@ -1,324 +1,112 @@
-[General]
-	#Play with badges
-	"Use Badges" = true
-	#Let the player pay back his skills
-	"Use Refund System" = true
-	#Initial price refund rate
-	# Default: 30
-	# Range: 1 ~ 100
-	"Refund percentage" = 30
-	#Level required to unlock abilities category
-	# Default: 1
-	# Range: 1 ~ 100000
-	"Abilities level" = 1
-	#Level required to unlock fight category
-	# Default: 5
-	# Range: 1 ~ 100000
-	"Fight level" = 5
-	#Level required to unlock misc category
-	# Default: 15
-	# Range: 1 ~ 100000
-	"Misc level" = 15
-	#Level required to unlock special category
-	# Default: 25
-	# Range: 1 ~ 100000
-	"Special level" = 25
+#General Gameplay Settings
+[general]
+	#Enable or disable the skill refund system
+	refund_system = true
+	#Percentage of the initial skill point cost refunded
+	# Default: 30.0
+	# Range: 1.0 ~ 100.0
+	refund_percentage = 30.0
+	#Minimum player level required to unlock and use traits
+	# Default: 20
+	# Range: > 1
+	trait_unlock_level = 20
+	#Enable or disable the entire Trait system
+	trait_system = true
+	#Prevent manually placed block from providing xp
+	prevent_placed_block_xp = true
 
-["XP requirement"]
-	#XP needed to complete level 1
-	# Default: 100
-	# Range: 1 ~ 100000
-	"Lvl 01 XP" = 100
-	#XP needed to complete level 2
-	# Default: 225
-	# Range: 1 ~ 100000
-	"Lvl 2 XP" = 225
-	#XP needed to complete level 3
-	# Default: 350
-	# Range: 1 ~ 100000
-	"Lvl 03 XP" = 350
-	#XP needed to complete level 4
-	# Default: 475
-	# Range: 1 ~ 100000
-	"Lvl 04 XP" = 475
-	#XP needed to complete level 5
-	# Default: 600
-	# Range: 1 ~ 100000
-	"Lvl 05 XP" = 600
-	#XP needed to complete level 6
-	# Default: 725
-	# Range: 1 ~ 100000
-	"Lvl 06 XP" = 725
-	#XP needed to complete level 7
-	# Default: 850
-	# Range: 1 ~ 100000
-	"Lvl 07 XP" = 850
-	#XP needed to complete level 8
-	# Default: 975
-	# Range: 1 ~ 100000
-	"Lvl 08 XP" = 975
-	#XP needed to complete level 9
-	# Default: 1100
-	# Range: 1 ~ 100000
-	"Lvl 09 XP" = 1100
-	#XP needed to complete level 10
-	# Default: 1225
-	# Range: 1 ~ 100000
-	"Lvl 10 XP" = 1225
-	#XP needed to complete level 11
-	# Default: 1475
-	# Range: 1 ~ 100000
-	"Lvl 11 XP" = 1475
-	#XP needed to complete level 12
-	# Default: 1725
-	# Range: 1 ~ 100000
-	"Lvl 12 XP" = 1725
-	#XP needed to complete level 13
-	# Default: 1975
-	# Range: 1 ~ 100000
-	"Lvl 13 XP" = 1975
-	#XP needed to complete level 14
-	# Default: 2225
-	# Range: 1 ~ 100000
-	"Lvl 14 XP" = 2225
-	#XP needed to complete level 15
-	# Default: 2475
-	# Range: 1 ~ 100000
-	"Lvl 15 XP" = 2475
-	#XP needed to complete level 16
-	# Default: 2725
-	# Range: 1 ~ 100000
-	"Lvl 16 XP" = 2725
-	#XP needed to complete level 17
-	# Default: 2975
-	# Range: 1 ~ 100000
-	"Lvl 17 XP" = 2975
-	#XP needed to complete level 18
-	# Default: 3225
-	# Range: 1 ~ 100000
-	"Lvl 18 XP" = 3225
-	#XP needed to complete level 19
-	# Default: 3475
-	# Range: 1 ~ 100000
-	"Lvl 19  XP" = 3475
-	#XP needed to complete level 20
-	# Default: 3750
-	# Range: 1 ~ 100000
-	"Lvl 20 XP" = 3750
-	#XP needed to complete level 21
-	# Default: 4275
-	# Range: 1 ~ 100000
-	"Lvl 21 XP" = 4275
-	#XP needed to complete level 22
-	# Default: 4800
-	# Range: 1 ~ 100000
-	"Lvl 22 XP" = 4800
-	#XP needed to complete level 23
-	# Default: 5325
-	# Range: 1 ~ 100000
-	"Lvl 23 XP" = 5325
-	#XP needed to complete level 24
-	# Default: 5850
-	# Range: 1 ~ 100000
-	"Lvl 24 XP" = 5850
-	#XP needed to complete level 25
-	# Default: 6375
-	# Range: 1 ~ 100000
-	"Lvl 25 XP" = 6375
-	#XP needed to complete level 26
-	# Default: 6900
-	# Range: 1 ~ 100000
-	"Lvl 26 XP" = 6900
-	#XP needed to complete level 27
-	# Default: 7425
-	# Range: 1 ~ 100000
-	"Lvl 27 XP" = 7425
-	#XP needed to complete level 28
-	# Default: 7950
-	# Range: 1 ~ 100000
-	"Lvl 28 XP" = 7950
-	#XP needed to complete level 29
-	# Default: 8475
-	# Range: 1 ~ 100000
-	"Lvl 29 XP" = 8475
-	#XP needed to complete level 30
-	# Default: 9000
-	# Range: 1 ~ 100000
-	"Lvl 30 XP" = 9000
-	#XP needed to complete level 31
-	# Default: 9600
-	# Range: 1 ~ 100000
-	"Lvl 31 XP" = 9600
-	#XP needed to complete level 32
-	# Default: 10200
-	# Range: 1 ~ 100000
-	"Lvl 32 XP" = 10200
-	#XP needed to complete level 33
-	# Default: 10800
-	# Range: 1 ~ 100000
-	"Lvl 33 XP" = 10800
-	#XP needed to complete level 34
-	# Default: 11400
-	# Range: 1 ~ 100000
-	"Lvl 34 XP" = 11400
-	#XP needed to complete level 35
-	# Default: 12000
-	# Range: 1 ~ 100000
-	"Lvl 35 XP" = 12000
-	#XP needed to complete level 36
-	# Default: 12600
-	# Range: 1 ~ 100000
-	"Lvl 36 XP" = 12600
-	#XP needed to complete level 37
-	# Default: 13200
-	# Range: 1 ~ 100000
-	"Lvl 37 XP" = 13200
-	#XP needed to complete level 38
-	# Default: 13800
-	# Range: 1 ~ 100000
-	"Lvl 38 XP" = 13800
-	#XP needed to complete level 39
-	# Default: 14400
-	# Range: 1 ~ 100000
-	"Lvl 39 XP" = 14400
-	#XP needed to reach max level
-	# Default: 16000
-	# Range: 1 ~ 100000
-	"Lvl MAX XP" = 16000
+	[Trait_details.Deep_lode]
+		#Define the max ores contained in a vein
+		# Default: 64
+		# Range: > 1
+		max_ore = 64
+		#Prevents player-placed blocks from being destroyed by this trait
+		deep_lode_grief_protection = true
 
-["XP earnings"]
-	#=== BE CAREFUL WHEN MODIFYING THESE VALUES TO MAINTAIN CONSISTENCY WITH THE BADGE GOALS ===
-	#XP gains when you eat food
-	"Eating gains" = [1.0]
-	#XP gains when you craft an item
-	"Crafting gains" = [0.5]
-	#XP gains when you fish
-	"Fushing gains" = [5.0]
-	#XP gains when you turn dirt into farmlands
-	"Harvesting gains" = [2.0]
-	#XP gains after sleeping
-	"Sleeping gains" = [2.0]
+	[Trait_details.Root_cleaver]
+		#Define the max logs that can be broken
+		# Default: 256
+		# Range: > 1
+		max_log = 256
+		#Define the max leaves that can be broken
+		# Default: 512
+		# Range: > 0
+		max_leaf = 512
+		#Restrict chain-breaking to the initial block type (wood and leaves)
+		match_type = true
+		#Prevents player-placed blocks from being destroyed by this trait
+		root_cleaver_grief_protection = true
 
-[Skills]
-	#Play with max health skill
-	"Use max health skill" = true
-	#Prices for max health skill
-	"Max health skill price" = [2, 2, 3, 3, 5, 5, 7, 7, 9, 9]
-	#Extra hearts by level (default player health = 20)
-	"Max health values" = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	#Play with reach skill
-	"Use reach skill" = true
-	#Prices for reach skill
-	"Reach skill price" = [3, 5, 9, 13]
-	#Extra distance for block interaction per level (default reach = 4.5 blocks)
-	"Reach values" = [1, 2, 3, 4]
-	#Play with resistance skill
-	"Use resistance skill" = true
-	#Prices for resistance skill
-	"resistance skill prices" = [3, 5, 7, 9, 13]
-	#Resistance precentage
-	"Resistance values" = [10, 20, 30, 40, 50]
-	#Play with attack damage skill
-	"Use attack damage skill" = true
-	#Prices for attack damage skill
-	"Attack damage skill prices" = [9, 14]
-	#Extra damage by level (default player damage = 1)
-	"Attack damage values" = [1, 3]
-	#Play with speed skill
-	"Use speed skill" = true
-	#Prices for speed skill
-	"Speed skill prices" = [2, 4, 6, 8, 11]
-	#Extra speed percentage
-	"Speed percentage" = [20, 40, 60, 80, 100]
-	#Play with step height skill
-	"Use step height skill" = true
-	#Prices for step height skill
-	"Step height skill prices" = [3, 5]
-	#Extra step height by level (default step = 1 & 1 step = 0.5 blocks)
-	"Step values" = [1, 2]
-	#Play with swim speed skill
-	"Use swim speed skill" = true
-	#Prices for swim speed skill
-	"Swim speed skill prices" = [2, 4, 6, 8, 11]
-	#Extra swim speed pecentage
-	"Swim speed values" = [20, 40, 60, 80, 100]
-	#Play with oxygene boost skill
-	"Use swim oxygene boost" = true
-	#Prices for oxygene boost skill
-	"Oxygene boost skill prices" = [3, 5, 7, 9]
-	#Extra respiration pecentage
-	"Oxygene boost values" = [25, 50, 75, 100]
-	#Play with sneaking speed skill
-	"Use sneaking speed skill" = true
-	#Prices for sneaking speed skill
-	"Sneaking speed skill prices" = [1, 2, 3, 4, 5]
-	#Extra sneaking speed percentage
-	"Sneaking speed percentage" = [20, 40, 60, 80, 100]
-	#Play with bloodlust skill
-	"Use bloodlust skill" = true
-	#Prices for bloodlust skill
-	"Bloodlust skill prices" = [4, 7]
-	#Half-hearts recovered
-	"Bloodlust values" = [1, 2]
-	#Play with damage deal skill
-	"Use damage deal skill" = true
-	#Prices for deal damage skill
-	"Deal damage skill prices" = [3, 5, 7, 9, 13]
-	#Play with critical hit skill
-	"Use critical hit skill" = true
-	#Prices for critical hit skill
-	"Critical hit skill prices" = [4, 7, 9, 10, 15]
-	#Play with venomous attack skill
-	"Use venomous attack skill" = true
-	#Prices for venomous attack skill
-	"Venomous attack skill prices" = [3, 5, 7, 9, 13]
-	#Play with skill xp boost skill
-	"Use skill xp boost skill" = true
-	#Prices for skill xp boost skill
-	"Skill xp boost skill prices" = [5, 8, 12, 16]
-	#Play with harvester skill
-	"Use harvester skill" = true
-	#Prices for harvester skill
-	"Harvester skill prices" = [9, 14]
-	#Play with nutrition boost skill
-	"Use nutrition boost skill" = true
-	#Prices for nutrition boost skill
-	"Nutrition boost skill prices" = [2, 4, 6, 8, 11]
-	#Extra half-hunger point by food item
-	"Nutrition boost values" = [1, 2, 3, 4, 5]
-	#Play with xp boost skill
-	"Use xp boost skill" = true
-	#Prices for xp boost skill
-	"Xp boost skill prices" = [3, 5, 7, 9]
-	#Play with mining speed skill
-	"Use mining speed skill" = true
-	#Prices for mining speed skill
-	"Mining speed skill prices" = [2, 4, 6, 8, 11]
-	#mining speed multiplier (default is 0)
-	"Mining speed values" = [1, 2, 3, 4, 5]
-	#Play with second life skill
-	"Use second life skill" = true
-	#Price for second life skill
-	"Second life skill price" = [20]
-	#Play with villager bait skill
-	"Use villager bait skill" = true
-	#Price for villager bait skill
-	"Villager bait skill price" = [12]
-	#Play with night vision skill
-	"Use night vision skill" = true
-	#Price for night vision skill
-	"Night vision skill price" = [18]
-	#Play with fire resistance skill
-	"Use fire resistance skill" = true
-	#Price for fire resistance skill
-	"Fire resistance skill price" = [18]
-	#Play with edible rotten flesh skill
-	"Use edible rotten flesh skill" = true
-	#Price for edible rotten flesh skill
-	"Edible rotten flesh skill price" = [12]
-	#Play with adrenaline skill
-	"Use adrenaline skill" = true
-	#Price for adrenaline skill
-	"Adrenaline skill price" = [12]
-	#percentage of life required for activation
-	"Adrenaline value" = [20]
+	[Trait_details.Cinder_blood]
+		#Allow the trait to prevent lava damage
+		prevent_lava_damage = false
+
+	[Trait_details.Deep_rest]
+		#Restores saturation upon waking
+		restores_sat = true
+		#Restores health upon waking
+		restores_health = true
+		#Restores nutrition upon waking
+		restores_nutrition = true
+
+	[Trait_details.Deep_sight]
+		#Block light level threshold for activation
+		# Default: 5
+		# Range: 0 ~ 15
+		ambient_threshold = 5
+		#Sky light level threshold for activation
+		# Default: 0
+		# Range: 0 ~ 15
+		sky_threshold = 0
+
+	[Trait_details.Silver_tongue]
+		#Radius in blocks within which villagers are attracted
+		# Default: 16.0
+		# Range: 0.5 ~ 50.0
+		attraction_radius = 16.0
+		#Movement speed of attracted villagers
+		# Default: 0.6
+		# Range: 0.1 ~ 25.0
+		villager_speed = 0.6
+
+[xp_values]
+	#Enable XP gain while in Creative Mode
+	earn_xp_in_creative = false
+	#Enable XP gain from eating food (values defined in JSON)
+	eating_xp_earnings = true
+	#XP gained from sleeping
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	sleeping_gain = 25.0
+	#XP gained from fishing
+	# Default: 7.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fishing_gain = 7.0
+	#XP gained from crafting items
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	crafting_gain = 0.2
+	#XP gained from breeding animals
+	# Default: 15.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	breeding_gain = 15.0
+	#XP gain for basic advancements (Tasks)
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	task_gain = 25.0
+	#XP gain for rare advancements (Goals)
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	goal_gain = 100.0
+	#XP gain for epic advancements (Challenges)
+	# Default: 250.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	challenge_gain = 250.0
+	#XP gain for discovering a new biome
+	# Default: 45.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	biome_gain = 45.0
+	#XP gain for entering a new dimension
+	# Default: 500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	dimension_gain = 500.0

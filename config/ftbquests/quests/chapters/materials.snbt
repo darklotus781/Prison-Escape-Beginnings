@@ -335,7 +335,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -1037,7 +1037,7 @@
 				item: { count: 1, id: "aoa3:varsium_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -1084,37 +1084,6 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.5d
-		}
-		{
-			id: "6484ED503A61E148"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3205278F4961A47D"
-					table_id: 8165874891470381153L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "337EAF57431ED697"
-					table_id: 926694929136802539L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "12C2F51C2CF53B68"
-					table_id: 1108948341791551636L
-					type: "random"
-				}
-			]
-			tasks: [{
-				count: 64L
-				id: "5A2795A6CCC6E1CD"
-				item: { count: 1, id: "bigreactors:yellorium_ingot" }
-				type: "item"
-			}]
-			x: 1.0d
 			y: 4.5d
 		}
 		{
