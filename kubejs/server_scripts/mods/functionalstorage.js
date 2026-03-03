@@ -17,21 +17,5 @@ ServerEvents.recipes(event => {
     compactify(Item.of('minecraft:calcite'), Item.of('exdeorum:calcite_pebble', 4));
     compactify(Item.of('minecraft:basalt'), Item.of('exdeorum:basalt_pebble', 4));
     compactify(Item.of('minecraft:bamboo_block'), Item.of('minecraft:bamboo', 9)); // This is just for easier storage :D
-    compactify(Item.of('immersiveengineering:ingot_lead'), Item.of('alltheores:lead_nugget', 9));
-    compactify(Item.of('immersiveengineering:ingot_steel'), Item.of('alltheores:steel_nugget', 9));
-    compactify(Item.of('immersiveengineering:ingot_aluminum'), Item.of('alltheores:aluminum_nugget', 9));
-    compactify(Item.of('immersiveengineering:ingot_nickel'), Item.of('alltheores:nickel_nugget', 9));
-    compactify(Item.of('immersiveengineering:ingot_silver'), Item.of('alltheores:silver_nugget', 9));
-    compactify(Item.of('alltheores:zinc_ingot'), Item.of('alltheores:zinc_nugget', 9));
-    compactify(Item.of('mekanism:ingot_osmium'), Item.of('alltheores:osmium_nugget', 9));
-    compactify(Item.of('mekanism:ingot_tin'), Item.of('alltheores:tin_nugget', 9));
-    compactify(Item.of('mekanism:ingot_bronze'), Item.of('alltheores:bronze_nugget', 9));
     compactify(Item.of('minecraft:copper_ingot'), Item.of('alltheores:copper_nugget', 9));
-
-
-    // const ieMaterials = ['electrum', 'aluminum', 'lead', 'silver', 'nickel', 'uranium', 'constantan', 'steel', 'osmium', 'platinum', 'tin', 'zinc']
-    // ieMaterials.forEach(material => {
-    //     compactify(Item.of(`immersiveengineering:storage_${material}`), Item.of(`immersiveengineering:ingot_${material}`, 9));
-    //     compactify(Item.of(`immersiveengineering:ingot_${material}`), Item.of(`immersiveengineering:nugget_${material}`, 9));
-    // })
 });

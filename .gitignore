@@ -26,6 +26,12 @@
 /resourcepacks
 /saves
 /screenshots
+/server_pack/config
+/server_pack/configureddefaults
+/server_pack/crlib
+/server_pack/defaultconfigs
+/server_pack/kubejs
+/server_pack/mods
 /shaderpacks
 command_history.txt
 minecraftinstance.json
@@ -44,5 +50,5 @@ prison_old.nbt
 servers.dat_old
 win_event*.txt
 config/fabric/indigo-renderer*.properties
-server-pack/
+server_pack/
 scripts/sync_server_mods.py

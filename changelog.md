@@ -1,3 +1,6 @@
+# [1.1.9] (DarkLotus)
+- Fixed Functional Storage Compacting of Ingots
+
 # [1.1.8] (DarkLotus)
 - Upgraded Neoforge to 21.1.219
 - Upgraded Complementary Shaders - Unbound to 5.7.1
