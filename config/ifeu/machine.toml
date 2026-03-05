@@ -111,3 +111,13 @@
 		powerPerTick = 90
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
+
+	[MachineConfig.SaucepanConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		maxWaterTankStorage = 16000
+		maxMeatTankStorage = 16000

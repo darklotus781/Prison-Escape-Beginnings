@@ -110,3 +110,28 @@
 	# Default: 500.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	dimension_gain = 500.0
+
+[Limits]
+	#Maximum level a player can reach (-1 to disable limit)
+	# Default: -1
+	# Range: > -1
+	max_lvl = -1
+	#Maximum SP a player can hold (-1 to disable limit)
+	# Default: -1
+	# Range: > -1
+	max_sp = -1
+	#Maximum SP a player can earn (-1 to disable limit)
+	# Default: -1
+	# Range: > -1
+	max_sp_gain = -1
+	#Maximum XP a player can earn within a defined period of time (-1 to disable limit)
+	# Default: -1.0
+	# Range: -1.0 ~ 1.7976931348623157E308
+	xp_daily = -1.0
+	#Time that must elapse before the XP limit reset (in sec)
+	# Default: 1200
+	# Range: 1 ~ 9223372036854775807
+	cycle_duration = 1200
+	#Change de limit type (FIXED = literal limit of xp, PERCENTAGE = percentage of the xp goal for the current level)
+	#Allowed Values: FIXED, PERCENTAGE
+	limit_type = "FIXED"

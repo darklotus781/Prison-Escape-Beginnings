@@ -129,6 +129,12 @@ ServerEvents.recipes(event => {
         output: 'minecraft:echo_shard'
     });
 
+    event.remove({
+        input: 'exdeorum:crushed_blackstone',
+        type: 'exdeorum:sieve',
+        mod: 'exdeorum'
+    });
+
     const compressedHammers = [
         'exdeorum:compressed_stone_hammer',
         'exdeorum:compressed_wooden_hammer',

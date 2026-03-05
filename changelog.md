@@ -1,3 +1,44 @@
+# [1.2.0] (DarkLotus)
+- Fixed Ancient Debris Spawns in Deep Beneath
+  - Delete saves/<save>/dimensions/dimension_expansion/deep_beneath
+  - This will remove your Deep Beneath dimensions, which will reset your Ancient Debris spawns. Please back up your saves before proceeding.
+  - Fixed issue with crushed_blackstone showing as sieveable without a recipe, it's no longer showing at all.
+## Mods:
+- Added Mods:
+  - None this time :P
+- Updated Mods:
+  - Actually Additions
+  - Applied Energistics 2 Wireless Terminals
+  - Construction Sticks
+  - Dark Doppelganger : Iron's Spells and Spellbooks Addon
+  - Easy Mob Farm
+  - ExperienceLib
+  - Extended Crafting
+  - Extreme sound muffler - (Neo)Forge
+  - FTB Quests (NeoForge)
+  - FTB XMod Compat
+  - GeckoLib
+  - Generic Streamer Utilities
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Terminals
+  - Integrated Tunnels
+  - Iron's Spells 'n Spellbooks
+  - Moonlight Lib
+  - Rechiseled
+  - Relics
+  - Silent Gear
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Super Factory Manager ( SFM )
+  - Supplementaries
+  - Tyz's Skills
+  - Waystones
+- Removed Mods:
+  - Inventory Essentials
+  - Inventory Sorter
+
 # [1.1.9] (DarkLotus)
 - Fixed Functional Storage Compacting of Ingots
 
