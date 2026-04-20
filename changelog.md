@@ -1,3 +1,56 @@
+# [1.2.1] (DarkLotus)
+- Added recipe for Powder Snow Bucket
+## Mods:
+- Added Mods:
+  - None this time :P
+- Updated Mods:
+  - AE2 JEI Integration
+  - Aquaculture 2
+  - Baubley Heart Canisters
+  - BlockUI
+  - Common Capabilities
+  - Cooking for Blockheads
+  - CorgiLib
+  - CoroUtil
+  - Crash Assistant
+  - Cupboard
+  - Cyclops Core
+  - Dark Doppelganger : Iron's Spells and Spellbooks Addon
+  - Easy Mob Farm
+  - ExtendedAE
+  - FTB Library (Forge)
+  - FTB Quests (NeoForge)
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Terminals
+  - Integrated Tunnels
+  - JamLib
+  - LibX
+  - Lithium (Fabric/NeoForge)
+  - Lithostitched
+  - Lootr (Forge & NeoForge)
+  - Moonlight Lib
+  - Mystical Agradditions
+  - Mystical Agriculture
+  - Oracle Index
+  - Patchouli
+  - Reliquary Reincarnations
+  - ShatterLib | OctoLib
+  - Silent Gear
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Sophisticated Storage
+  - Super Factory Manager ( SFM )
+  - SuperMartijn642's Core Lib
+  - Supplementaries
+  - TrashSlot
+  - Tyz's Skills
+  - Utilitarian
+  - Waystones
+- Removed Mods:
+  - None this time :P
+
 # [1.2.0] (DarkLotus)
 - Fixed Ancient Debris Spawns in Deep Beneath
   - Delete saves/<save>/dimensions/dimension_expansion/deep_beneath

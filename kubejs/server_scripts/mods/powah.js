@@ -51,4 +51,28 @@ ServerEvents.recipes(event => {
             count: 3
         }
     });
+    
+    // Powdered Snow
+    event.custom({
+        type: 'powah:energizing',
+        ingredients: [
+            {
+                item: 'powah:dry_ice'
+            },
+            {
+                item: 'minecraft:bucket'
+            },
+            {
+                item: 'minecraft:snowball'
+            },
+            {
+                item: 'reliquary:frozen_core'
+            }
+        ],
+        energy: 150000,
+        result: {
+            id: 'minecraft:powder_snow_bucket',
+            count: 1
+        }
+    });
 });
