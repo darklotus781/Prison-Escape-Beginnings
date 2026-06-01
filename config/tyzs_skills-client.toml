@@ -90,5 +90,9 @@
 	# Default: 0.95
 	# Range: 0.0 ~ 1.0
 	speed_fov_reduction = 0.95
-	#List of skill IDs that are affected by the FOV reduction setting
-	fov_affected_skills = ["speed_boost"]
+
+[search_bar]
+	#Keep search query when closing the menu
+	keep_search_query = true
+	#§c[Experimental] §rAllow query typos
+	query_tolerance = false

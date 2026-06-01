@@ -1092,8 +1092,11 @@
 				{
 					id: "79734AEF276F3D7D"
 					item: {
+						components: {
+							"ftbquests:missing_item": "deep_dark:echoite_upgrade_smithing_template"
+						}
 						count: 1
-						id: "deep_dark:echoite_upgrade_smithing_template"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1113,7 +1116,7 @@
 			tasks: [{
 				count: 64L
 				id: "2F8EDECEE721563A"
-				item: { count: 1, id: "deep_dark:echoite_ingot" }
+				item: { components: { "ftbquests:missing_item": "deep_dark:echoite_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d

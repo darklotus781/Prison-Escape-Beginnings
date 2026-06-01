@@ -1278,8 +1278,11 @@
 				{
 					id: "0ACDEE38086CB8C2"
 					item: {
+						components: {
+							"ftbquests:missing_item": "deep_dark:echoite_and_flint"
+						}
 						count: 1
-						id: "deep_dark:echoite_and_flint"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1349,19 +1352,12 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					entity: "minecraft:warden"
-					id: "29B0DB3B050F0685"
-					type: "kill"
-					value: 5L
-				}
-				{
-					dimension: "deep_dark:deep_dark_dimension"
-					id: "64B607EDFAB83D6C"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "29B0DB3B050F0685"
+				type: "kill"
+				value: 5L
+			}]
 			x: 9.5d
 			y: 7.5d
 		}

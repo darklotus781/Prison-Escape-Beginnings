@@ -2133,7 +2133,7 @@
 				}
 				{
 					id: "59909849F32B73D0"
-					item: { count: 1, id: "enderio:empty_soul_vial" }
+					item: { count: 1, id: "enderio:soul_vial" }
 					type: "item"
 				}
 				{

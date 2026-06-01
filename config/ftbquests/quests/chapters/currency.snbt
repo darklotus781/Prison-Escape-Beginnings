@@ -499,15 +499,21 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "deep_dark:echoite_ingot"
+				components: {
+					"ftbquests:missing_item": "deep_dark:echoite_ingot"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "519FDC2F6480FC55"
 			rewards: [{
 				count: 5
 				id: "41C556212D1D140E"
 				item: {
+					components: {
+						"ftbquests:missing_item": "deep_dark:echoite_ingot"
+					}
 					count: 1
-					id: "deep_dark:echoite_ingot"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -2116,7 +2122,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "enderio:copper_alloy_ingot"
+				id: "enderio:conductive_alloy_ingot"
 			}
 			id: "41DAB1023A4FEE3B"
 			rewards: [{
@@ -2124,7 +2130,7 @@
 				id: "2E6B41C28B64C220"
 				item: {
 					count: 1
-					id: "enderio:copper_alloy_ingot"
+					id: "enderio:conductive_alloy_ingot"
 				}
 				type: "item"
 			}]
@@ -2665,15 +2671,21 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "enderio:extraction_speed_upgrade_4"
+				components: {
+					"ftbquests:missing_item": "enderio:extraction_speed_upgrade_4"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "236BEA947B84B713"
 			rewards: [{
 				count: 6
 				id: "7B5CFEBB7D7370DC"
 				item: {
+					components: {
+						"ftbquests:missing_item": "enderio:extraction_speed_upgrade_4"
+					}
 					count: 1
-					id: "enderio:extraction_speed_upgrade_4"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

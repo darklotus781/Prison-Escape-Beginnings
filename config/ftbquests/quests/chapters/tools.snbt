@@ -961,7 +961,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "1AAD58045CECCC4D"
-				item: { count: 1, id: "deep_dark:echoite_axe" }
+				item: { components: { "ftbquests:missing_item": "deep_dark:echoite_axe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.199999999999999d

@@ -25,3 +25,7 @@ dimensionAllowList = []
 dimensionDenyList = []
 #List of entity ids to be allowed for Forgiving Void. On Forge this only supports living entities.
 entityAllowList = ["minecraft:player"]
+#Set to true to make Forgiving Void return the player to the sky above their last grounded position instead of their current position. Prevents players from using Forgiving Void to fly across larger distances.
+returnToLastGrounded = true
+#Effects applied to a player when they fall through the void, in the format "effect|duration|amplifier"
+fallThroughVoidEffects = ["minecraft:blindness|60|3"]

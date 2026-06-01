@@ -1,3 +1,120 @@
+# [1.2.2] (DarkLotus)
+- Updated Neoforge to 21.1.227
+## Mods:
+- Added Mods:
+  - None this time :P
+- Updated Mods:
+  - AdvancedAE
+  - Almost Unified
+  - AppleSkin
+  - Applied Energistics 2 Wireless Terminals
+  - Aquaculture 2
+  - Armor & damage scaling[Forge/Fabric]
+  - Artifacts
+  - Athena
+  - ATO - All the Ores
+  - AvaritiaNeo
+  - BaguetteLib
+  - BucketLib
+  - Cable Facades
+  - Cable Tiers
+  - Client Crafting
+  - Client Tweaks
+  - Collective
+  - Cooking for Blockheads
+  - Corpse x Curios API Compat
+  - Crafting Station: J/EMI Edition Updated
+  - Crafting Tweaks
+  - Crash Assistant
+  - Cucumber Library
+  - Cyclops Core
+  - Deeper and Darker
+  - Default Options
+  - Deimos Lib
+  - Easy Mob Farm
+  - Easy Villagers
+  - Ender IO
+  - Entity Culling Fabric/Forge
+  - Euphoria Patches
+  - Explorer's Compass
+  - ExtendedAE
+  - Extra Disks
+  - Extreme sound muffler - (Neo)Forge
+  - FancyMenu
+  - Farming for Blockheads
+  - Forgiving Void
+  - FramedBlocks
+  - FTB Pack Companion
+  - FTB Quests (NeoForge)
+  - FTB Stuff & Things
+  - FTB Teams (NeoForge)
+  - FTB Ultimine (NeoForge)
+  - Functional Storage
+  - Glassential Renewed
+  - GuideME
+  - Industrial Foregoing: Extra Upgrades
+  - Integrated Crafting
+  - Integrated Dynamics
+  - Integrated Tunnels
+  - Iron's Spells 'n Spellbooks
+  - Just Enough Mekanism Multiblocks
+  - Just Enough Professions (JEP)
+  - Kiwi 🥝 (Neo/Forge)
+  - KleeSlabs
+  - KubeJS
+  - LibX
+  - Lithostitched
+  - Loot Integrations: Dungeon Crawl
+  - Loot Integrations: Randomized Loot Compatibility
+  - Loot Integrations: When Dungeons Arise & Co
+  - LootJS: KubeJS Addon
+  - Lootr (Forge & NeoForge)
+  - ME Requester
+  - MEGA Cells
+  - Mekanism
+  - Mekanism Additions
+  - Mekanism Generators
+  - Mekanism Tools
+  - MES - Moog's End Structures
+  - MmmMmmMmmMmm (Target Dummy)
+  - ModernFix
+  - MonoLib
+  - Moog's Structure Lib (moogs_structures)
+  - Moonlight Lib
+  - Mystical Agriculture
+  - Nature's Compass
+  - Oracle Index
+  - Powah! (Rearchitected)
+  - Puzzles Lib
+  - Refined Storage
+  - Reliquary Reincarnations
+  - Repeatable Trial Vaults
+  - ShatterLib | OctoLib
+  - Silent Gear
+  - Silent Lib (silentlib)
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Sophisticated Storage
+  - Structure Essentials
+  - Supplementaries
+  - Titanium
+  - Tool Belt
+  - TrashSlot
+  - Tyz's Skills
+  - Utilitarian
+  - Waystones
+  - Wooden Bucket
+  - Yung Structures Addon for Loot Integrations
+- Removed Mods:
+  - Deep Dark Dimension!
+- Locked:
+  - Relics (0.10.7.8) VERSION LOCKED!
+  - Sodium (0.6.13) VERSION LOCKED!
+  - Easy NPC (v6.8.3) VERSION LOCKED!
+  - Easy NPC: Config UI (v6.8.3) VERSION LOCKED!
+  - Easy NPC: Core (v6.8.3) VERSION LOCKED!
+- Shaders:
+  - Complementary Shaders - Unbound  
 # [1.2.1] (DarkLotus)
 - Added recipe for Powder Snow Bucket
 ## Mods:

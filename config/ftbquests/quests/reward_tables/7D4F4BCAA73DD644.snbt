@@ -505,8 +505,11 @@
 			count: 6
 			id: "4EB3290B2933670C"
 			item: {
+				components: {
+					"ftbquests:missing_item": "deep_dark:echoite_ingot"
+				}
 				count: 1
-				id: "deep_dark:echoite_ingot"
+				id: "ftbquests:missing_item"
 			}
 			weight: 25.0f
 		}

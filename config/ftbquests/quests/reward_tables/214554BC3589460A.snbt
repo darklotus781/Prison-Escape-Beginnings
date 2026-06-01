@@ -11,7 +11,7 @@
 			id: "00BB09BD0F4DF0DA"
 			item: {
 				count: 1
-				id: "enderio:copper_alloy_ingot"
+				id: "enderio:conductive_alloy_ingot"
 			}
 		}
 		{
@@ -68,7 +68,7 @@
 		}
 		{ id: "70A7A18193DB160A", item: { count: 1, id: "enderio:soularium_ingot" } }
 		{ id: "779A79F3C09A56E2", item: { count: 1, id: "enderio:end_steel_ingot" } }
-		{ id: "0083B8727BB9B02B", item: { count: 1, id: "enderio:copper_alloy_nugget" } }
+		{ id: "0083B8727BB9B02B", item: { count: 1, id: "enderio:conductive_alloy_nugget" } }
 		{ id: "494CD9855C4AD9BA", item: { count: 1, id: "enderio:energetic_alloy_nugget" } }
 		{
 			count: 3
@@ -189,10 +189,10 @@
 			id: "59745060B89BFCBC"
 			item: {
 				count: 1
-				id: "enderio:copper_alloy_grinding_ball"
+				id: "enderio:conductive_alloy_grinding_ball"
 			}
 		}
-		{ id: "7F9CDA887F15B611", item: { count: 1, id: "enderio:fluid_filter" } }
+		{ id: "7F9CDA887F15B611", item: { count: 1, id: "enderio:basic_fluid_filter" } }
 		{
 			count: 5
 			id: "0B84C06AEB122925"
@@ -292,8 +292,8 @@
 		}
 		{ id: "49B3E81765025D14", item: { count: 1, id: "enderio:silent_oak_pressure_plate" } }
 		{ id: "377D0275FF7CF5C9", item: { count: 1, id: "enderio:photovoltaic_composite" } }
-		{ id: "2AB0E56CE4E8943F", item: { count: 1, id: "enderio:wood_gear" } }
-		{ id: "05B225BE4A85FE07", item: { count: 1, id: "enderio:stone_gear" } }
+		{ id: "2AB0E56CE4E8943F", item: { components: { "ftbquests:missing_item": "enderio:wood_gear" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "05B225BE4A85FE07", item: { components: { "ftbquests:missing_item": "enderio:stone_gear" }, count: 1, id: "ftbquests:missing_item" } }
 		{
 			count: 3
 			id: "35EC7014A42DAFB9"
@@ -306,8 +306,11 @@
 			count: 3
 			id: "789C1C0F085AF4B2"
 			item: {
+				components: {
+					"ftbquests:missing_item": "enderio:organic_black_dye"
+				}
 				count: 1
-				id: "enderio:organic_black_dye"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{

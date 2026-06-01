@@ -232,8 +232,11 @@
 			count: 3
 			id: "549D0B4DDE6F9BF3"
 			item: {
+				components: {
+					"ftbquests:missing_item": "enderio:extraction_speed_upgrade_4"
+				}
 				count: 1
-				id: "enderio:extraction_speed_upgrade_4"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{

@@ -120,6 +120,9 @@
   "hammerlib": {
     "root": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "projecte": {
     "emc_provider": true
   },
@@ -239,8 +242,5 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-  },
-  "modular_machinery_reborn": {
-    "machine_component_provider": true
   }
 }
